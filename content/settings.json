@@ -19,9 +19,8 @@
     "navigation": {
       "header": [
         { "label": "About", "url": "/#about" },
-        { "label": "Projects", "url": "/blog" },
-        { "label": "Experience", "url": "/#features" },
-        { "label": "Github", "url": "/#github" }
+        { "label": "Projects", "url": "/projectsPage" },
+        { "label": "Experience", "url": "/experiencePage" }
       ],
       "ctaButton": {
         "openNewTab": true,
@@ -29,8 +28,6 @@
         "url": "/resume.pdf"
       },
       "footer": [
-        { "label": "Privacy", "url": "/privacy" },
-        { "label": "Imprint", "url": "/imprint" }
       ]
     },
     "featureToggles": {

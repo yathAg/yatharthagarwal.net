@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'gatsby';
 import {
   AboutSection,
   ArticlesSection,
@@ -10,7 +11,13 @@ import {
   Animation,
   ProjectsSection,
   Seo,
+  Button,
+  ButtonType,
+  data,
+  classes
 } from "gatsby-theme-portfolio-minimal";
+import ExperienceSection from "./experienceSection";
+
 
 export default function IndexPage() {
   return (
@@ -19,14 +26,9 @@ export default function IndexPage() {
       <Page useSplashScreenAnimation>
         <HeroSection sectionId="hero" />
         <AboutSection sectionId="about" heading="About Me" />
-        <ProjectsSection sectionId="features" heading="Projects" />
-        <Animation type="fadeUp">
-          <Section heading="Experience">
-            <p>You can add your custom JSX here.</p>
-          </Section>
-        </Animation>
         <InterestsSection sectionId="details" heading="Interests" />
-        <ContactSection sectionId="github" heading="Reach Out" />
+        <ProjectsSection sectionId="projects" heading="Projects" />
+        <ExperienceSection />
       </Page>
     </>
   );

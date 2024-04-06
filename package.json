@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "A Gatsby Starter Project to easily get started with the Portfolio Minimal Theme.",
   "scripts": {
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "clean": "gatsby clean",
-    "develop": "gatsby develop",
+    "develop": "gatsby clean develop",
     "build": "gatsby build",
     "serve": "gatsby serve"
   },

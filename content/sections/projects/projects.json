@@ -46,7 +46,6 @@
   ],
   "button": {
     "visible": true,
-    "openNewTab": false,
     "label": "Explore More",
     "url": "/projectsPage"
   }

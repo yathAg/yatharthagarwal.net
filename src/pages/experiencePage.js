@@ -1,32 +1,20 @@
 import React from "react";
 import { Link } from 'gatsby';
 import {
-  AboutSection,
-  ArticlesSection,
-  ContactSection,
-  HeroSection,
-  InterestsSection,
   Page,
   Section,
   Animation,
-  ProjectsSection,
-  Seo,
-  Button,
-  ButtonType,
-  data,
-  classes
+  Seo
 } from "gatsby-theme-portfolio-minimal";
+
+import ExperienceSection from "./_experienceSection";
 
 export default function ExperiencePage() {
   return (
     <>
       <Seo title="Yatharth Agarwal" />
       <Page>
-      <Animation type="fadeUp">
-          <Section anchor="ExperiencePage" heading="Experiences">
-            <p>Building...</p>
-          </Section>
-        </Animation>
+      <ExperienceSection sectionId="experiencePage" buttonVisible="false"/>
       </Page>
     </>
   );

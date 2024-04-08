@@ -1,32 +1,18 @@
 import React from "react";
 import { Link } from 'gatsby';
 import {
-  AboutSection,
-  ArticlesSection,
-  ContactSection,
-  HeroSection,
-  InterestsSection,
   Page,
-  Section,
-  Animation,
-  ProjectsSection,
-  Seo,
-  Button,
-  ButtonType,
-  data,
-  classes
+  Seo
 } from "gatsby-theme-portfolio-minimal";
+
+import ProjectSection from "./_projectSection";
 
 export default function ProjectsPage() {
   return (
     <>
       <Seo title="Yatharth Agarwal" />
       <Page>
-      <Animation type="fadeUp">
-          <Section anchor="projectsPage" heading="Personal Projects">
-            <p>Waay too much to add here...</p>
-          </Section>
-        </Animation>
+      <ProjectSection sectionId="projectsPage" buttonVisible="false"/>
       </Page>
     </>
   );

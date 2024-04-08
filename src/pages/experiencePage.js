@@ -1,9 +1,6 @@
 import React from "react";
-import { Link } from 'gatsby';
 import {
   Page,
-  Section,
-  Animation,
   Seo
 } from "gatsby-theme-portfolio-minimal";
 

@@ -5,7 +5,7 @@ import { Slider } from '../../node_modules/gatsby-theme-portfolio-minimal/src/co
 import { Button, ButtonType } from './_button';
 import { Project } from '../../node_modules/gatsby-theme-portfolio-minimal/src/components/Project';
 import { PageSection } from '../../node_modules/gatsby-theme-portfolio-minimal/src/types';
-import { useLocalDataSource } from './_experiencedata';
+import { useLocalDataSource } from './_experienceData';
 import * as classes from './_experienceSection.module.css';
 
 interface pageSection {

@@ -1,5 +1,5 @@
 .Projects {
-    display: flex;
+    display: list-item;
     flex-direction: column;
     margin-top: -2rem;
 }

@@ -1,6 +1,6 @@
 .Projects {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-top: -2rem;
 }
 

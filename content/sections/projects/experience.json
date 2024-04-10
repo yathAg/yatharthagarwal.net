@@ -2,51 +2,39 @@
   "projects": [
     {
       "visible": true,
-      "category": "🕹️ esl",
-      "title": "VSDSquadron",
-      "description": "The VSDSquadron is a state-of-the-art development board designed for educational purposes in the field of VLSI System Design. It’s based on the RISC-V architecture and is fully open-source, offering a unique opportunity for individuals to learn about RISC-V and VLSI chip design using only open-source tools",
-      "tags": ["PCB Design", "Open Source"],
+      "category": "Embedded Systems Laboratory",
+      "title": "Graduate Research Assistant",
+      "description": "I am currently a Research assistant at the embedded Systems Laboratory at Purdue. I am designing a end-to-end hardware security system for autonomous systems as a part of the Cognisense JUMP 2.0 center. ",
+      "tags": ["Hardware Security", "Autonomous Systems"],
       "image": {
-        "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
+        "src": "../../images/purdue.jpg",
         "alt": "Quick Setup",
-        "linkTo": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+        "linkTo": "ttps://engineering.purdue.edu/ESL/"
       },
       "links": [
         {
-          "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
-        },
-        {
           "type": "external",
-          "url": "https://www.gatsbyjs.org/docs/mdx/writing-pages/"
+          "url": "https://engineering.purdue.edu/ESL/"
         }
       ]
     },
     {
       "visible": true,
-      "category": "🧰 cisco",
-      "title": "Seraphim!",
-      "description": "The starter includes predefined sections as well as a template for new, custom sections. Moreover, you can add new projects to this section without additional coding. Photo by Kelly Sikkema on Unsplash.",
-      "tags": ["Custom Sections", "Easy-2-Use"],
+      "category": "Cisco",
+      "title": "Hardware Engineering Intern",
+      "description": "Understood the design architecture and performed DFM analysis for PCBs used in Cisco access space routers",
+      "tags": ["BOM Optimization", "DRC Verification"],
       "image": {
-        "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
-        "alt": "Extendable Layout"
+        "src": "../../images/cisco.jpeg",
+        "alt": "Cisco"
       },
       "links": [
-        {
-          "type": "youtube",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
-        },
-        {
-          "type": "external",
-          "url": "https://www.gatsbyjs.org/docs/mdx/writing-pages/"
-        }
       ]
     }
   ],
   "button": {
     "visible": true,
-    "label": "See My History",
+    "label": "See the Journey",
     "url": "/experiencePage"
   }
 }

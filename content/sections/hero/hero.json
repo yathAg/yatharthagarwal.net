@@ -10,11 +10,11 @@
   },
   "title": "I'm Yatharth Agarwal",
   "subtitle": {
-    "prefix": "This website is currently under construction ...",
-    "highlight": "Come back soon",
-    "suffix": "!"
+    "prefix": "Graduate ECE student at ",
+    "highlight": "Purdue University",
+    "suffix": "."
   },
-  "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
+  "description": "There are 10 kinds of people, those who understand binary and those who don't.",
   "socialProfiles": {
     "from": ["LinkedIn", "Github", "Mail"],
     "showIcons": true

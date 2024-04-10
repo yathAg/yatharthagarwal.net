@@ -1,58 +1,65 @@
 {
   "interests": [
     {
-      "label": "Gaming",
+      "label": "VLSI",
       "image": {
-        "src": "../../images/joystick.png",
+        "src": "../../images/interests/VLSI.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Embedded Systems",
+      "image": {
+        "src": "../../images/interests/ES.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Open Source Hardware",
+      "image": {
+        "src": "../../images/interests/OSH.png",
         "alt": ""
       }
     },
     {
       "label": "Formula One",
       "image": {
-        "src": "../../images/notebook.png",
+        "src": "../../images/interests/F1.png",
         "alt": ""
       }
     },
     {
       "label": "Movies",
       "image": {
-        "src": "../../images/nail-polish.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "Open Source",
-      "image": {
-        "src": "../../images/medium.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "RISCV",
-      "image": {
-        "src": "../../images/gem-stone.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "PCB Design",
-      "image": {
-        "src": "../../images/mobile-phone.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "Cooking",
-      "image": {
-        "src": "../../images/gatsby.png",
+        "src": "../../images/interests/Movies.png",
         "alt": ""
       }
     },
     {
       "label": "Reading",
       "image": {
-        "src": "../../images/high-voltage.png",
+        "src": "../../images/interests/books.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "PCB Design",
+      "image": {
+        "src": "../../images/interests/VLSI.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Traveling",
+      "image": {
+        "src": "../../images/interests/travell.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "RISC V",
+      "image": {
+        "src": "../../images/interests/rv.png",
         "alt": ""
       }
     }

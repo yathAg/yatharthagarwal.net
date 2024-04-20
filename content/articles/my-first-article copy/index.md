@@ -8,7 +8,6 @@ banner:
   caption: 'Photo by <u><a href="https://unsplash.com/photos/Nc5Q_CEcY44">Florian Olivo</a></u>'
 categories:
   - "Setup"
-  - "Tutorial"
 keywords:
   - "Example"
   - "Gatsby"

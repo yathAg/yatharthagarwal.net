@@ -6,8 +6,8 @@ import {
   Page,
   Seo
 } from "gatsby-theme-portfolio-minimal";
-import ExperienceSection from "./_experienceSection";
-import ProjectSection from "./_projectSection";
+import ExperienceSection from "../gatsby-theme-portfolio-minimal/src/sections/Experience/index.tsx";
+import ProjectSection from "../gatsby-theme-portfolio-minimal/src/sections/Projects/index.tsx";
 
 
 export default function IndexPage() {
@@ -18,8 +18,8 @@ export default function IndexPage() {
         <HeroSection sectionId="hero" />
         <AboutSection sectionId="about" heading="About Me" />
         <InterestsSection sectionId="details" heading="Interests" />
-        <ProjectSection sectionId="projects" heading="Projects" buttonVisible="true"/>
-        <ExperienceSection sectionId="experience" heading="Experience" buttonVisible="true"/>
+        <ProjectSection sectionId="projects" heading="Projects" buttonVisible="true" isPage="false"/>
+        <ExperienceSection sectionId="experience" heading="Experience" buttonVisible="true" isPage="false"/>
       </Page>
     </>
   );

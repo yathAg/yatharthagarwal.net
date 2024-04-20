@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import * as classes from "./_button.module.css";
+import * as classes from "./style.module.css";
 
 export enum ButtonType {
     BUTTON = 'button',

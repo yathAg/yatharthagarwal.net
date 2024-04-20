@@ -32,7 +32,7 @@
     },
     "featureToggles": {
       "useDarkModeAsDefault": false,
-      "useDarkModeBasedOnUsersPreference": false,
+      "useDarkModeBasedOnUsersPreference": true,
       "useCookieBar": false
     }
   }

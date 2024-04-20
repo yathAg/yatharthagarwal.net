@@ -4,7 +4,7 @@ import {
   Seo
 } from "gatsby-theme-portfolio-minimal";
 
-import ExperienceSection from "./_experienceSection";
+import ExperienceSection from "../gatsby-theme-portfolio-minimal/src/sections/Experience/index.tsx";
 
 export default function ExperiencePage() {
   return (

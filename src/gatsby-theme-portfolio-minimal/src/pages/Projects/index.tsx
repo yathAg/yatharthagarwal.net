@@ -25,7 +25,7 @@ interface pageSection {
 interface FilterOption {
     label: string;
     selected: boolean;
-    // relatedArticleIds: string[];
+    relatedArticleIds: string[];
 }
 
 export default function ProjectPageSection(props: pageSection): React.ReactElement {
@@ -43,13 +43,22 @@ export default function ProjectPageSection(props: pageSection): React.ReactEleme
         setFilterOptions(updatedFilterOptions);
     }
 
+    let selectedArticleIds: string[] = [];
     const filterSelected = filterOptions.map((o) => o.selected).indexOf(true) !== -1;
+    if (filterSelected) {
+        selectedArticleIds = filterOptions
+            .filter((option) => option.selected) // Filter only for selected options
+            .map((option) => option.relatedArticleIds) // Create an array of article ids arrays
+            .flat(1) // Flatten the array to a string[]
+            .filter((tags, index, arr) => arr.indexOf(tags) === index); // Remove duplicate article ids
+    }
 
     return (
         <Animation type="fadeIn">
             <Section anchor={props.sectionId} heading={props.heading}>
-
-                {/* <Slider additionalClasses={[classes.Options]}>
+            <div className={classes_new.Filter}>
+            Filter Projects By Category
+                <Slider additionalClasses={[classes_new.Options]}>
                     {filterOptions.map((option, key) => {
                         return (
                             <div
@@ -57,39 +66,21 @@ export default function ProjectPageSection(props: pageSection): React.ReactEleme
                                 role="button"
                                 onClick={() => handleFilterOptionClick(option.label)}
                                 className={[
-                                    classes.Option,
-                                    option.selected === true ? classes.Selected : null,
-                                ].join(' ')}
-                            >
-                                {option.label} ({option.relatedArticleIds.length})
-                            </div>
-                        );
-                    })}
-                </Slider> */}
-
-                <Slider additionalClasses={[classes_new.Options]}>
-                    {filterOptions.map((project, key) => {
-                        return (
-                            <div
-                                key={key}
-                                role="button"
-                                onClick={() => handleFilterOptionClick(project.label)}
-                                className={[
                                     classes_new.Option,
-                                    project.selected === true ? classes_new.Selected : null,
+                                    option.selected === true ? classes_new.Selected : null,
                                 ].join(' ')}
                             >
-                                {project.label}
+                                {option.label}
                             </div>
                         );
                     })}
                 </Slider>
-
+                </div>
 
                 <Slider additionalClasses={[classes.Projects]}>
                     {data.projects
-                        .filter((project) => filterSelected )
-                        // .filter((project) => !filterSelected || selectedArticleIds.includes(article.id))
+                        // .filter((project) => filterSelected )
+                        .filter((project) => !filterSelected || selectedArticleIds.includes(project.tags))
                         .map((project, key) => {
                             return (
                                 <Project
@@ -124,31 +115,14 @@ function extractFilterOptions(projects: Project[]): FilterOption[] {
     projects.forEach((project) => {
         project.tags.forEach((tags) => {
             if (!categoryList.includes(tags)) {
-                filterOptions.push({ label: tags, selected: false });
+                filterOptions.push({ label: tags, selected: false, relatedArticleIds: [project.tags] });
                 categoryList.push(tags);
             } else {
                 const optionIndex = filterOptions.map((o) => o.label).indexOf(tags);
-                // filterOptions[optionIndex].relatedArticleIds.push(article.id);
+                filterOptions[optionIndex].relatedArticleIds.push(project.tags);
             }
         });
     });
-    return filterOptions;
+    return filterOptions.sort((a, b) => (a.relatedArticleIds.length > b.relatedArticleIds.length ? -1 : 1));
+
 }
-
-
-// function extractFilterOptions(articles: ArticleTemplateData[]): FilterOption[] {
-//     const filterOptions: FilterOption[] = [];
-//     const categoryList: string[] = [];
-//     articles.forEach((article) => {
-//         article.categories.forEach((category) => {
-//             if (!categoryList.includes(category)) {
-//                 filterOptions.push({ label: category, selected: false, relatedArticleIds: [article.id] });
-//                 categoryList.push(category);
-//             } else {
-//                 const optionIndex = filterOptions.map((o) => o.label).indexOf(category);
-//                 filterOptions[optionIndex].relatedArticleIds.push(article.id);
-//             }
-//         });
-//     });
-//     return filterOptions.sort((a, b) => (a.relatedArticleIds.length > b.relatedArticleIds.length ? -1 : 1));
-// }

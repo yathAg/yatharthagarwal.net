@@ -126,6 +126,27 @@
           "url": "https://projectmanas.in/#projects"
         }
       ]
+    },
+    {
+      "visible": false,
+      "category": "Compute In memory ",
+      "title": "8T Sram Compute in memory ",
+      "description": "Seraphim is an autonomous, six feet wide hexrotor designed at ProjectMANAS. Capable of autonomous navigation, image detection and payload delivery, it was our entry to the 2022 AUVSI SUAS Challenge held in Maryland USA. ",
+      "tags": ["UAV", "Robotics"],
+      "image": {
+        "src": "../../images/seraphim.jpeg",
+        "alt": "Seraphim"
+      },
+      "links": [
+        {
+          "type": "youtube",
+          "url": "https://youtu.be/CQ0x2UGOluc?si=EuDRl80gd3KZKKz1"
+        },
+        {
+          "type": "external",
+          "url": "https://projectmanas.in/#projects"
+        }
+      ]
     }
   ],
   "button": {

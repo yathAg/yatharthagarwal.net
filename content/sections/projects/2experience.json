@@ -1,0 +1,66 @@
+{
+  "projects": [
+    {
+      "visible": true,
+      "category": "Embedded Systems Laboratory",
+      "title": "Graduate Research Assistant",
+      "description": "I am currently a Research assistant at the embedded Systems Laboratory at Purdue. I am designing a end-to-end hardware security system for autonomous systems as a part of the Cognisense JUMP 2.0 center. ",
+      "tags": ["Hardware Security", "Autonomous Systems"],
+      "image": {
+        "src": "../../images/PurdueUniversity.png",
+        "alt": "Quick Setup",
+        "linkTo": "https://engineering.purdue.edu/ESL/"
+      },
+      "links": [
+        {
+          "type": "external",
+          "url": "https://engineering.purdue.edu/ESL/"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "Cisco",
+      "title": "Hardware Engineering Intern",
+      "description": "Understood the design architecture and performed DFM analysis for PCBs used in Cisco access space routers",
+      "tags": ["BOM Optimization", "DRC Verification"],
+      "image": {
+        "src": "../../images/cisco.png",
+        "alt": "Cisco"
+      },
+      "links": [
+      ]
+    },
+    {
+      "visible": false,
+      "category": "Project Manas",
+      "title": "Technical Head",
+      "description": "Designed End-to-End detailed Technical Architecture for the autonomous drone that took part in the Student Unmanned Aerial Systems (SUAS) 2022 competition held in Maryland, US. \n Led and guided a team of 50+ undergraduates for the development of the entire drone system, including both hardware and software components.",
+      "tags": ["BOM Optimization", "DRC Verification"],
+      "image": {
+        "src": "../../images/manas.png",
+        "alt": "Cisco"
+      },
+      "links": [
+      ]
+    },
+    {
+      "visible": false,
+      "category": "Robert Bosch",
+      "title": "Research Intern",
+      "description": "Designed CAN and RS485 shield for STM32 G474 for Stoch3 quadruped.",
+      "tags": ["BOM Optimization", "DRC Verification"],
+      "image": {
+        "src": "../../images/IISC.png",
+        "alt": "Cisco"
+      },
+      "links": [
+      ]
+    }
+  ],
+  "button": {
+    "visible": true,
+    "label": "See the Journey",
+    "url": "/experiencePage"
+  }
+}

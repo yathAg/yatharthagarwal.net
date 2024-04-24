@@ -18,7 +18,7 @@ interface pageSection {
 
 export default function ExperienceSection(props: pageSection): React.ReactElement {
     const response = useLocalDataSource();
-    const data = response.allProjectsJson.sections[2];
+    const data = response.allProjectsJson.sections[1];
 
     return (
         <Animation type="fadeIn">

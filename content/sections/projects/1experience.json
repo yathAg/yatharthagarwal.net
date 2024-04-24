@@ -7,9 +7,9 @@
       "description": "I am currently a Research assistant at the embedded Systems Laboratory at Purdue. I am designing a end-to-end hardware security system for autonomous systems as a part of the Cognisense JUMP 2.0 center. ",
       "tags": ["Hardware Security", "Autonomous Systems"],
       "image": {
-        "src": "../../images/purdue.jpg",
+        "src": "../../images/PurdueUniversity.png",
         "alt": "Quick Setup",
-        "linkTo": "ttps://engineering.purdue.edu/ESL/"
+        "linkTo": "https://engineering.purdue.edu/ESL/"
       },
       "links": [
         {
@@ -25,7 +25,7 @@
       "description": "Understood the design architecture and performed DFM analysis for PCBs used in Cisco access space routers",
       "tags": ["BOM Optimization", "DRC Verification"],
       "image": {
-        "src": "../../images/cisco.jpeg",
+        "src": "../../images/cisco.png",
         "alt": "Cisco"
       },
       "links": [
@@ -38,7 +38,7 @@
       "description": "Designed End-to-End detailed Technical Architecture for the autonomous drone that took part in the Student Unmanned Aerial Systems (SUAS) 2022 competition held in Maryland, US. \n Led and guided a team of 50+ undergraduates for the development of the entire drone system, including both hardware and software components.",
       "tags": ["BOM Optimization", "DRC Verification"],
       "image": {
-        "src": "../../images/cisco.jpeg",
+        "src": "../../images/manas.png",
         "alt": "Cisco"
       },
       "links": [
@@ -51,20 +51,7 @@
       "description": "Designed CAN and RS485 shield for STM32 G474 for Stoch3 quadruped.",
       "tags": ["BOM Optimization", "DRC Verification"],
       "image": {
-        "src": "../../images/cisco.jpeg",
-        "alt": "Cisco"
-      },
-      "links": [
-      ]
-    },
-    {
-      "visible": false,
-      "category": "Vtol Aviation",
-      "title": "Intern",
-      "description": "STM32 Customization/Schematic - Boot loader, Security, Memory organization .",
-      "tags": ["BOM Optimization", "DRC Verification"],
-      "image": {
-        "src": "../../images/cisco.jpeg",
+        "src": "../../images/IISC.png",
         "alt": "Cisco"
       },
       "links": [

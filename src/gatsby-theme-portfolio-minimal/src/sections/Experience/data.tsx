@@ -1,5 +1,5 @@
 import { graphql, useStaticQuery } from 'gatsby';
-import { Project } from "../../node_modules/gatsby-theme-portfolio-minimal/src/components/Project";
+import { Project } from "../../../../../node_modules/gatsby-theme-portfolio-minimal/src/components/Project";
 
 interface ProjectsSectionQueryResult {
     allProjectsJson: {

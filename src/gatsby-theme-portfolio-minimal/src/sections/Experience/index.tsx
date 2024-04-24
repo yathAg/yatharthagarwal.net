@@ -4,6 +4,7 @@ import { Section } from '../../../../../node_modules/gatsby-theme-portfolio-mini
 import { Slider } from '../../../../../node_modules/gatsby-theme-portfolio-minimal/src/components/Slider';
 import { Button, ButtonType } from '../../components/Button';
 import { Project } from '../../../../../node_modules/gatsby-theme-portfolio-minimal/src/components/Project';
+import { PageSection } from 'gatsby-theme-portfolio-minimal/src/types';
 import { useLocalDataSource } from './data';
 import * as classes from './style.module.css';
 
@@ -17,7 +18,7 @@ interface pageSection {
 
 export default function ExperienceSection(props: pageSection): React.ReactElement {
     const response = useLocalDataSource();
-    const data = response.allProjectsJson.sections[1];
+    const data = response.allProjectsJson.sections[2];
 
     return (
         <Animation type="fadeIn">

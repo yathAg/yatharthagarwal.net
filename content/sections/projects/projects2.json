@@ -8,14 +8,10 @@
       "tags": ["Hardware Security", "Autonomous Systems"],
       "image": {
         "src": "../../images/PurdueUniversity.png",
-        "alt": "Quick Setup",
+        "alt": "Purdue",
         "linkTo": "https://engineering.purdue.edu/ESL/"
       },
       "links": [
-        {
-          "type": "external",
-          "url": "https://engineering.purdue.edu/ESL/"
-        }
       ]
     },
     {
@@ -36,23 +32,26 @@
       "category": "Project Manas",
       "title": "Technical Head",
       "description": "Designed End-to-End detailed Technical Architecture for the autonomous drone that took part in the Student Unmanned Aerial Systems (SUAS) 2022 competition held in Maryland, US. \n Led and guided a team of 50+ undergraduates for the development of the entire drone system, including both hardware and software components.",
-      "tags": ["BOM Optimization", "DRC Verification"],
+      "tags": ["Unmanned Ariel Vehicles", "End-to-end System Development"],
       "image": {
         "src": "../../images/manas.png",
-        "alt": "Cisco"
+        "alt": "Project Manas",
+        "linkTo": "https://projectmanas.in/"
       },
       "links": [
       ]
     },
     {
       "visible": false,
-      "category": "Robert Bosch",
+      "category": "IISc RBCCPS",
       "title": "Research Intern",
+      "duration": "something",
       "description": "Designed CAN and RS485 shield for STM32 G474 for Stoch3 quadruped.",
-      "tags": ["BOM Optimization", "DRC Verification"],
+      "tags": ["Quadraped Development", "PCB Design", "Torque Characterization"],
       "image": {
         "src": "../../images/IISC.png",
-        "alt": "Cisco"
+        "alt": "IISc RBCCPS",
+        "linkTo": "https://cps.iisc.ac.in/"
       },
       "links": [
       ]

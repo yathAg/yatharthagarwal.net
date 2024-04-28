@@ -4,7 +4,6 @@ import { Section } from '../../../../node_modules/gatsby-theme-portfolio-minimal
 import { Slider } from '../../../../node_modules/gatsby-theme-portfolio-minimal/src/components/Slider';
 import { Button, ButtonType } from '../../components/myButton';
 import { Project } from '../../../../node_modules/gatsby-theme-portfolio-minimal/src/components/Project';
-import { PageSection } from 'gatsby-theme-portfolio-minimal/src/types';
 import { useLocalDataSource, ProjectsSectionQueryResult } from './data';
 import * as classes from './style.module.css';
 import * as classes_new from './articlestyle.module.css';
@@ -30,8 +29,10 @@ interface FilterOption {
 
 export default function ProjectPageSection(props: pageSection): React.ReactElement {
     const response = useLocalDataSource();
-    const data = response.allProjectsJson.sections[0];
-
+    const originalData = response.allProjectsJson.sections[0]; // Store the original data
+    const [data, setData] = React.useState(originalData); // Initialize data state with the original data
+    const [buttonLabel, setButtonLabel] = React.useState("Explain it like I'm 10"); // Initialize button label state
+    const [isLevelSelected, setLevelSelected] = React.useState(false);
     // const articles = props.pageContext.articles;
     const [filterOptions, setFilterOptions] = React.useState<FilterOption[]>(extractFilterOptions(data.projects));
 
@@ -41,6 +42,13 @@ export default function ProjectPageSection(props: pageSection): React.ReactEleme
         const selectedOptionIndex = updatedFilterOptions.map((o) => o.label).indexOf(optionLabel);
         updatedFilterOptions[selectedOptionIndex].selected = !updatedFilterOptions[selectedOptionIndex].selected;
         setFilterOptions(updatedFilterOptions);
+    }
+
+    function handleLevelOptionClick(): void {
+        const newData = data === originalData ? response.allProjectsJson.sections[1] : originalData;
+        setData(newData); // Update the data state with the new data
+        setButtonLabel(buttonLabel === "Explain it like I'm 10" ? "I'm grown up" : "Explain it like I'm 10");
+        setLevelSelected(!isLevelSelected);
     }
 
     let selectedArticleIds: string[] = [];
@@ -56,25 +64,36 @@ export default function ProjectPageSection(props: pageSection): React.ReactEleme
     return (
         <Animation type="fadeIn">
             <Section anchor={props.sectionId} heading={props.heading}>
-            <div className={classes_new.Filter}>
-            Filter Projects By Category
-                <Slider additionalClasses={[classes_new.Options]}>
-                    {filterOptions.map((option, key) => {
-                        return (
-                            <div
-                                key={key}
-                                role="button"
-                                onClick={() => handleFilterOptionClick(option.label)}
-                                className={[
-                                    classes_new.Option,
-                                    option.selected === true ? classes_new.Selected : null,
-                                ].join(' ')}
-                            >
-                                {option.label}
-                            </div>
-                        );
-                    })}
-                </Slider>
+                <div className={classes_new.Filter}>
+                    Filter Projects By Category
+                    <Slider additionalClasses={[classes_new.Options]}>
+                        {filterOptions.map((option, key) => {
+                            return (
+                                <div
+                                    key={key}
+                                    role="button"
+                                    onClick={() => handleFilterOptionClick(option.label)}
+                                    className={[
+                                        classes_new.Option,
+                                        option.selected === true ? classes_new.Selected : null,
+                                    ].join(' ')}
+                                >
+                                    {option.label}
+                                </div>
+                            );
+                        })}
+                        {/* <div
+                            key={"button"}
+                            role="button"
+                            onClick={() => handleLevelOptionClick()}
+                            className={[
+                                classes_new.Option,
+                                isLevelSelected ? classes_new.Selected : null,
+                            ].join(' ')}
+                        >
+                            {buttonLabel}
+                        </div> */}
+                    </Slider>
                 </div>
 
                 <Slider additionalClasses={[classes.Projects]}>

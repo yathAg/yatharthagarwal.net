@@ -11,7 +11,7 @@ export default function ProjectsPage() {
     <>
       <Seo title="Yatharth Agarwal" />
       <Page>
-      <ProjectPageSection sectionId="projectsPage" buttonVisible="false"  isPage="false"/>
+      <ProjectPageSection sectionId="projectsPage" buttonVisible="false" />
       </Page>
     </>
   );

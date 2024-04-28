@@ -6,8 +6,8 @@
     "titleTemplate": "",
     "description": "Welcome to my website!",
     "author": "Yatharth Agarwal",
-    "avatar": "../content/images/gatsby.png",
-    "bio": "Welcome to my website!",
+    "avatar": "../content/images/favicon.png",
+    "bio": "",
     "social": {
       "github": "https://github.com/yathAg",
       "linkedin": "https://www.linkedin.com/in/yathAg",
@@ -20,7 +20,9 @@
       "header": [
         { "label": "About", "url": "/#about" },
         { "label": "Projects", "url": "/projectsPage" },
-        { "label": "Experience", "url": "/experiencePage" }
+        { "label": "Experience", "url": "/experiencePage" },
+        { "label": "Blog", "url": "/blog" }
+
       ],
       "ctaButton": {
         "openNewTab": true,

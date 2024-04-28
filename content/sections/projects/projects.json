@@ -7,7 +7,7 @@
       "description": "The VSDSquadron is a development board designed to make learning RISC V and VLSI accessible . It's been a pleasure to make VSDSquadron scalable without compromising ease of use or convenience, with my main focus being on optimizing the production files and BOM.",
       "tags": [
         "PCB Design",
-        "Open Source"
+        "RISC V"
       ],
       "image": {
         "src": "../../images/vsdsquadron.jpeg",
@@ -31,8 +31,9 @@
       "title": "Seraphim: Autonomous Hexrotor",
       "description": "Seraphim is an autonomous, six feet wide hexrotor designed at ProjectMANAS. Capable of autonomous navigation, image detection and payload delivery, it was our entry to the 2022 AUVSI SUAS Challenge held in Maryland USA. ",
       "tags": [
-        "UAV",
-        "Robotics"
+        "Robotics",
+        "UAV"
+
       ],
       "image": {
         "src": "../../images/seraphim.jpeg",
@@ -51,49 +52,41 @@
     },
     {
       "visible": false,
-      "category": "Whats the Time?",
-      "title": "Binary Wrist watch",
+      "category": "Open Source IC Design",
+      "title": "AES Encryption: GF180",
       "description": "Seraphim is an autonomous, six feet wide hexrotor designed at ProjectMANAS. Capable of autonomous navigation, image detection and payload delivery, it was our entry to the 2022 AUVSI SUAS Challenge held in Maryland USA. ",
       "tags": [
-        "UAV",
-        "Robotics"
+        "VLSI",
+        "Security"
       ],
       "image": {
-        "src": "../../images/binaryWW.jpg",
-        "alt": "Seraphim"
+        "src": "../../images/AES.png",
+        "alt": "AES"
       },
       "links": [
         {
-          "type": "youtube",
-          "url": "https://youtu.be/CQ0x2UGOluc?si=EuDRl80gd3KZKKz1"
-        },
-        {
-          "type": "external",
-          "url": "https://projectmanas.in/#projects"
+          "type": "github",
+          "url": "https://github.com/yathAg/AES_gf180"
         }
       ]
     },
     {
       "visible": false,
-      "category": "Building from gates",
-      "title": "8Bit CPU",
+      "category": "ECE559 Mos VLSI Design ",
+      "title": "8T SRAM Compute in Memory Macro",
       "description": "Seraphim is an autonomous, six feet wide hexrotor designed at ProjectMANAS. Capable of autonomous navigation, image detection and payload delivery, it was our entry to the 2022 AUVSI SUAS Challenge held in Maryland USA. ",
       "tags": [
-        "UAV",
-        "Robotics"
+        "Course Project",
+        "VLSI"
       ],
       "image": {
-        "src": "../../images/8_Bit_CPU.jpeg",
-        "alt": "Seraphim"
+        "src": "../../images/559.png",
+        "alt": "Compute in memory"
       },
       "links": [
         {
-          "type": "youtube",
-          "url": "https://youtu.be/CQ0x2UGOluc?si=EuDRl80gd3KZKKz1"
-        },
-        {
           "type": "external",
-          "url": "https://projectmanas.in/#projects"
+          "url": "/559report.pdf"
         }
       ]
     },
@@ -103,12 +96,12 @@
       "title": "Shelfy: Automated ASRS",
       "description": "Seraphim is an autonomous, six feet wide hexrotor designed at ProjectMANAS. Capable of autonomous navigation, image detection and payload delivery, it was our entry to the 2022 AUVSI SUAS Challenge held in Maryland USA. ",
       "tags": [
-        "UAV",
+        "RISC V",
         "Robotics"
       ],
       "image": {
         "src": "../../images/shelfy.JPG",
-        "alt": "Seraphim"
+        "alt": "Shely"
       },
       "links": [
         {
@@ -123,49 +116,45 @@
     },
     {
       "visible": false,
-      "category": "Open Source IC",
-      "title": "AES Encryption: GF180",
+      "category": "Bringing gates together",
+      "title": "8Bit CPU",
       "description": "Seraphim is an autonomous, six feet wide hexrotor designed at ProjectMANAS. Capable of autonomous navigation, image detection and payload delivery, it was our entry to the 2022 AUVSI SUAS Challenge held in Maryland USA. ",
       "tags": [
-        "UAV",
-        "Robotics"
+        "VLSI",
+        "Computer Architecture"
       ],
       "image": {
-        "src": "../../images/seraphim.jpeg",
-        "alt": "Seraphim"
+        "src": "../../images/8_Bit_CPU.jpeg",
+        "alt": "8 Bit CPU"
       },
       "links": [
         {
-          "type": "youtube",
-          "url": "https://youtu.be/CQ0x2UGOluc?si=EuDRl80gd3KZKKz1"
-        },
-        {
           "type": "external",
-          "url": "https://projectmanas.in/#projects"
+          "url": "https://eater.net/8bit/"
         }
       ]
     },
     {
       "visible": false,
-      "category": "Compute In memory ",
-      "title": "8T Sram Compute in memory ",
+      "category": "Whats the Time?",
+      "title": "Binary Wrist watch",
       "description": "Seraphim is an autonomous, six feet wide hexrotor designed at ProjectMANAS. Capable of autonomous navigation, image detection and payload delivery, it was our entry to the 2022 AUVSI SUAS Challenge held in Maryland USA. ",
       "tags": [
-        "UAV",
-        "Robotics"
+        "PCB Design",
+        "Embedded Systems"
       ],
       "image": {
-        "src": "../../images/seraphim.jpeg",
-        "alt": "Seraphi"
+        "src": "../../images/binaryWW.jpg",
+        "alt": "Binary Wrist Watch"
       },
       "links": [
         {
-          "type": "youtube",
-          "url": "https://youtu.be/CQ0x2UGOluc?si=EuDRl80gd3KZKKz1"
+          "type": "github",
+          "url": "https://github.com/yathAg/binary_watch"
         },
         {
           "type": "external",
-          "url": "https://projectmanas.in/#projects"
+          "url": "https://www.instructables.com/Binary-Wrist-Watch/"
         }
       ]
     }

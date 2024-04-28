@@ -80,7 +80,8 @@ export default function ProjectPageSection(props: pageSection): React.ReactEleme
                 <Slider additionalClasses={[classes.Projects]}>
                     {data.projects
                         // .filter((project) => filterSelected )
-                        .filter((project) => !filterSelected || selectedArticleIds.includes(project.tags))
+                        .filter((project) => !filterSelected || filterOptions.some((option) => option.selected && project.tags.includes(option.label)))
+
                         .map((project, key) => {
                             return (
                                 <Project
@@ -109,20 +110,35 @@ export default function ProjectPageSection(props: pageSection): React.ReactEleme
     );
 }
 //  Input ProjectsSec...var name projects...output type FilterOption
+
+// function extractFilterOptions(projects: Project[]): FilterOption[] {
+//     const filterOptions: FilterOption[] = [];
+//     const categoryList: string[] = [];
+//     projects.forEach((project) => {
+//         project.tags.forEach((tags) => {
+//             if (!categoryList.includes(tags)) {
+//                 filterOptions.push({ label: tags, selected: false, relatedArticleIds: [project.tags] });
+//                 categoryList.push(tags);
+//             } else {
+//                 const optionIndex = filterOptions.map((o) => o.label).indexOf(tags);
+//                 filterOptions[optionIndex].relatedArticleIds.push(project.tags);
+//             }
+//         });
+//     });
+//     return filterOptions.sort((a, b) => (a.relatedArticleIds.length > b.relatedArticleIds.length ? -1 : 1));
+
+// }
+
 function extractFilterOptions(projects: Project[]): FilterOption[] {
     const filterOptions: FilterOption[] = [];
-    const categoryList: string[] = [];
+    const categorySet: Set<string> = new Set(); // Use a Set to keep track of unique tags
     projects.forEach((project) => {
-        project.tags.forEach((tags) => {
-            if (!categoryList.includes(tags)) {
-                filterOptions.push({ label: tags, selected: false, relatedArticleIds: [project.tags] });
-                categoryList.push(tags);
-            } else {
-                const optionIndex = filterOptions.map((o) => o.label).indexOf(tags);
-                filterOptions[optionIndex].relatedArticleIds.push(project.tags);
-            }
-        });
+        const firstTag = project.tags[0]; // Extracting the first tag
+        if (!categorySet.has(firstTag)) { // Check if the tag is not already in the Set
+            filterOptions.push({ label: firstTag, selected: false, relatedArticleIds: [firstTag] });
+            categorySet.add(firstTag); // Add the tag to the Set
+        }
     });
-    return filterOptions.sort((a, b) => (a.relatedArticleIds.length > b.relatedArticleIds.length ? -1 : 1));
-
+    return filterOptions.sort((a, b) => (a.label > b.label ? 1 : -1)); // Sort the filter options alphabetically
 }
+

@@ -6,8 +6,8 @@ import {
   Page,
   Seo
 } from "gatsby-theme-portfolio-minimal";
-import ExperienceSection from "../gatsby-theme-portfolio-minimal/src/sections/Experience/index.tsx";
-import ProjectSection from "../gatsby-theme-portfolio-minimal/src/sections/Projects/index.tsx";
+import ExperienceSection from "../gatsby-theme-portfolio-minimal/sections/Experiences/index.tsx";
+import ProjectSection from "../gatsby-theme-portfolio-minimal/sections/Projects/index.tsx";
 
 
 export default function IndexPage() {

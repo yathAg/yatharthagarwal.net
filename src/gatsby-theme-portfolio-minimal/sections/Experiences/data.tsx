@@ -1,31 +1,32 @@
 import { graphql, useStaticQuery } from 'gatsby';
-import { Project } from "../../../../../node_modules/gatsby-theme-portfolio-minimal/src/components/Project";
+import { Experience } from "../../components/Experience";
 
-interface ProjectsSectionQueryResult {
-    allProjectsJson: {
+interface ExperiencesSectionQueryResult {
+    allExperiencesJson: {
         sections: {
             button: {
                 label: string;
                 url: string;
                 visible: boolean;
             };
-            projects: Project[];
+            experiences: Experience[];
         }[];
     };
 }
 
-export const useLocalDataSource = (): ProjectsSectionQueryResult => {
+export const useLocalDataSource = (): ExperiencesSectionQueryResult => {
     return useStaticQuery(graphql`
-        query ProjectsSectionQuery {
-            allProjectsJson {
+        query ExperiencesSectionQuery {
+            allExperiencesJson {
                 sections: nodes {
                     button {
                         label
                         url
                         visible
                     }
-                    projects {
+                    experiences {
                         category
+                        duration
                         description
                         image {
                             alt
@@ -35,11 +36,7 @@ export const useLocalDataSource = (): ProjectsSectionQueryResult => {
                                     gatsbyImageData(width: 400)
                                 }
                             }
-                            objectFit
-                        }
-                        links {
-                            type
-                            url
+
                         }
                         tags
                         title

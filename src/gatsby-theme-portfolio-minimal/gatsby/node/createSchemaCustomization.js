@@ -75,6 +75,7 @@ module.exports = ({ actions }) => {
         title: String
         duration: String
         description: String
+        description2: String
         tags: [String]
         image: LinkedImage
         links: [ExperienceLink]

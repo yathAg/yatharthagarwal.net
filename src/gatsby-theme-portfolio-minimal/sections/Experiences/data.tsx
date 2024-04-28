@@ -28,6 +28,7 @@ export const useLocalDataSource = (): ExperiencesSectionQueryResult => {
                         category
                         duration
                         description
+                        description2
                         image {
                             alt
                             linkTo

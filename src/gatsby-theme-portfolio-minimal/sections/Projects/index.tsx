@@ -2,7 +2,7 @@ import React from 'react';
 import { Animation } from '../../../../node_modules/gatsby-theme-portfolio-minimal/src/components/Animation';
 import { Section } from '../../../../node_modules/gatsby-theme-portfolio-minimal/src/components/Section';
 import { Slider } from '../../../../node_modules/gatsby-theme-portfolio-minimal/src/components/Slider';
-import { Button, ButtonType } from '../../components/Button';
+import { Button, ButtonType } from '../../components/myButton';
 import { Project } from '../../../../node_modules/gatsby-theme-portfolio-minimal/src/components/Project';
 import { PageSection } from 'gatsby-theme-portfolio-minimal/src/types';
 import { useLocalDataSource } from './data';

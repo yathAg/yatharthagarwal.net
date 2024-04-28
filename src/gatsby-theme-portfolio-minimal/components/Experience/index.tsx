@@ -16,6 +16,7 @@ export interface Experience {
     title: string;
     duration: string;
     description: string;
+    description2: string;
     image: ImageObject & { linkTo?: string };
     tags?: string[];
     links?: {
@@ -45,7 +46,7 @@ export function Experience(props: ExperienceProps): React.ReactElement {
                 <span className={classes.Category}>{props.data.category}</span>
                 <h4 className={classes.Title}>{props.data.title}</h4>
                 <span className={classes.Duration}>{props.data.duration}</span>
-                <p>{props.data.description}</p>
+                <p>{props.data.description}<br /><br />{props.data.description2}</p>
                 <div className={classes.Tags}>
                     {props.data.tags &&
                         props.data.tags.length !== 0 &&

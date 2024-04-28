@@ -6,21 +6,17 @@
       "title": "Graduate Research Assistant",
       "duration": "October 2023 -",
       "description": "I am currently a Research assistant at the embedded Systems Laboratory at Purdue. I am designing a end-to-end hardware security system for autonomous systems as a part of the Cognisense JUMP 2.0 center. ",
-      "tags": ["Hardware Security", "Autonomous Systems"],
+      "tags": [
+        "Hardware Security",
+        "Autonomous Systems"
+      ],
       "image": {
         "src": "../../images/PurdueUniversity.png",
         "alt": "Purdue",
         "linkTo": "https://engineering.purdue.edu/ESL/"
       },
       "links": [
-        {
-          "type": "github",
-          "url": "https://github.com/yathAg/VSDSquadron"
-        },
-        {
-          "type": "external",
-          "url": "https://www.vlsisystemdesign.com/vsdsquadronmini/"
-        }
+        {}
       ]
     },
     {
@@ -28,21 +24,18 @@
       "category": "Cisco",
       "title": "Hardware Engineering Intern",
       "duration": "January 2023 - June 2023",
-      "description": "Understood the design architecture and performed DFM analysis for PCBs used in Cisco access space routers",
-      "tags": ["BOM Optimization", "DRC Verification"],
+      "description": "Understood the design architecture and performed DFM analysis for PCBs used in Cisco access space routers.",
+      "description2": "Worked with the Agile Product development methodology and proposed Value engineering ideas for reducing the BOM cost.",
+      "tags": [
+        "BOM Optimization",
+        "DRC Verification"
+      ],
       "image": {
         "src": "../../images/cisco.png",
         "alt": "Cisco"
       },
       "links": [
-        {
-          "type": "youtube",
-          "url": "https://youtu.be/CQ0x2UGOluc?si=EuDRl80gd3KZKKz1"
-        },
-        {
-          "type": "external",
-          "url": "https://projectmanas.in/#projects"
-        }
+        {}
       ]
     },
     {
@@ -50,22 +43,19 @@
       "category": "Project Manas",
       "title": "Technical Head",
       "duration": "May 2021 - July 2022",
-      "description": "Designed End-to-End detailed Technical Architecture for the autonomous drone that took part in the Student Unmanned Aerial Systems (SUAS) 2022 competition held in Maryland, US. \n Led and guided a team of 50+ undergraduates for the development of the entire drone system, including both hardware and software components.",
-      "tags": ["Unmanned Ariel Vehicles", "End-to-end System Development"],
+      "description": "Designed End-to-End detailed Technical Architecture for the autonomous UAV that took part in the Student Unmanned Aerial Systems (SUAS) 2022 competition held in Maryland, US. ",
+      "description2": "Led and guided a team of 50+ undergraduates for the development of the entire UAV system, including both hardware and software components.",
+      "tags": [
+        "UAV",
+        "End-to-end System Development"
+      ],
       "image": {
         "src": "../../images/manas.png",
         "alt": "Project Manas",
         "linkTo": "https://projectmanas.in/"
       },
       "links": [
-        {
-          "type": "youtube",
-          "url": "https://youtu.be/CQ0x2UGOluc?si=EuDRl80gd3KZKKz1"
-        },
-        {
-          "type": "external",
-          "url": "https://projectmanas.in/#projects"
-        }
+        {}
       ]
     },
     {
@@ -73,17 +63,19 @@
       "category": "IISc RBCCPS",
       "title": "Research Intern",
       "duration": "May 2021 - July 2022",
-      "description": "Designed CAN and RS485 shield for STM32 G474 for Stoch3 quadruped.",
-      "tags": ["Quadraped Development", "PCB Design"],
+      "description": "Designed Controller Area Network and RS485 interface shield for STM32 G474 for the Stoch3 quadruped.",
+      "description2": "Carried out the torque characterization tests for the U10 Plus BLDC motor and assembled the electronic architecture for the 3-DOF prototype leg.",
+      "tags": [
+        "Quadraped Development",
+        "PCB Design"
+      ],
       "image": {
         "src": "../../images/IISC.png",
         "alt": "IISc RBCCPS",
         "linkTo": "https://cps.iisc.ac.in/"
       },
       "links": [
-        {
-          
-        }
+        {}
       ]
     }
   ],

@@ -1,16 +1,16 @@
 ---
-title: "Grand Canyon"
-description: "Total Solar Eclipse: Indianapolis Motor Speedway"
-date: "2024-04-08"
+title: "Grand Canyon: Mountains mimic the oceans horizon"
+description: "Grand Canyon: If the mountains could mimic the oceans horizon"
+date: "2024-03-15"
 banner:
   src: "./GC1.jpeg"
-  alt: "Indianapolis Motor Speedway Eclipse"
+  alt: "Grand Canyon"
   caption: ''
 categories:
   - "Travel"
 keywords:
-  - "Total Solar Eclipse"
-  - "Indianapolis Motor Speedway"
+  - "Grand Canyon"
+  - "Spring Break 2024"
 ---
 
-## A Journey Through Time
+## Travel tales: Arizona

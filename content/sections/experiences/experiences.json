@@ -12,7 +12,8 @@
       ],
       "image": {
         "src": "../../images/PurdueUniversity.png",
-        "alt": "Purdue"
+        "alt": "Purdue",
+        "linkTo": "https://engineering.purdue.edu/ESL/"
       },
       "links": [
         {}

@@ -1,12 +1,12 @@
 {
   "siteMetadata": {
     "language": "en",
-    "siteUrl": "https://yatharthagarwal.netlify.app/",
+    "siteUrl": "https://www.yatharthagarwal.net",
     "title": "Yatharth Agarwal",
     "titleTemplate": "",
     "description": "Welcome to my website!",
     "author": "Yatharth Agarwal",
-    "avatar": "../content/images/favicon.png",
+    "avatar": "./images/favicon_large.png",
     "bio": "",
     "social": {
       "github": "https://github.com/yathAg",

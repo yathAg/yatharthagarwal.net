@@ -4,7 +4,7 @@
       "visible": true,
       "category": "Making education accessible ",
       "title": "VSDSquadron",
-      "description": "VSDSquadron is a development board designed to make learning RISC V and VLSI accessible. Based on the openMPW shuttle, my goal has been to make VSDSquadron scalable without compromising ease of use or convenience and optimize the production files. It also has a more popular sibling called VSDSquadronMini.",
+      "description": "VSDSquadron is a development board designed to make learning RISC V and VLSI accessible. Based on the openMPW shuttle, my goal has been to make VSDSquadron scalable and optimized for production without compromising ease of use. It also has a more popular sibling called VSDSquadronMini.",
       "tags": [
         "PCB Design",
         "RISC V"
@@ -54,7 +54,7 @@
       "visible": false,
       "category": "Open Source IC Design",
       "title": "AES Encryption: GF180",
-      "description": "",
+      "description": "It's mindblowing how far open-source EDA has come. Within days, I was able to implement an AES accelerator for the open GF180m shuttle. Unfortunately, it wasn't accepted into the lottery, but I will have my own tapeout soon...",
       "tags": [
         "VLSI",
         "Security"
@@ -72,29 +72,9 @@
     },
     {
       "visible": false,
-      "category": "RISCV ",
-      "title": "RISCV CORE ",
-      "description": "",
-      "tags": [
-        "RISC V",
-        "Computer Architecture"
-      ],
-      "image": {
-        "src": "../../images/AES.png",
-        "alt": "AES"
-      },
-      "links": [
-        {
-          "type": "github",
-          "url": "https://github.com/yathAg/FemtoRV_RISCV"
-        }
-      ]
-    },
-    {
-      "visible": false,
       "category": "ECE559 Mos VLSI Design ",
       "title": "8T SRAM Compute in Memory Macro",
-      "description": "",
+      "description": "We designed a 4kb in-memory compute module to explore architectures capable of overcoming the Von Neumann bottleneck. Implemented in 45nm CMOS, the 8T SRAM cell can perform arithmetic operations without transferring data to the CPU.",
       "tags": [
         "VLSI",
         "Course Project"
@@ -114,14 +94,14 @@
       "visible": false,
       "category": "ECE565 Computer Architecture",
       "title": "Adaptive Cache Compression in Gem5",
-      "description": "",
+      "description": "To understand the performance improvement by compressing data in modern caches, we implemented a Variable Segment Cache in the GEM5 simulator and simulated it against the SPEC2k17 benchmarks.",
       "tags": [
         "Computer Architecture",
         "Course Project"
       ],
       "image": {
-        "src": "../../images/559.png",
-        "alt": "Compute in memory"
+        "src": "../../images/gem5ColorLong.png",
+        "alt": "Gem5"
       },
       "links": [
         {
@@ -136,16 +116,36 @@
     },
     {
       "visible": false,
-      "category": "Openroad 7mm contest",
-      "title": "",
-      "description": "",
+      "category": "Future of computing",
+      "title": "RISC-V CORE ",
+      "description": "You can place a sure-shot bet that in a few years, RISC-V is going to be everywhere. This was my attempt at implementing a simple core to understand the basics of RISC-V. Implemented on an Artix7 FPGA, it can display the Mandelbrot set over UART. ",
+      "tags": [
+        "RISC V",
+        "Computer Architecture"
+      ],
+      "image": {
+        "src": "../../images/rv.png",
+        "alt": "RISCV"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/yathAg/FemtoRV_RISCV"
+        }
+      ]
+    },
+    {
+      "visible": false,
+      "category": "Open Source Contribution",
+      "title": "OpenROAD 7mm contest",
+      "description": "Implemented DRC for ASAP7 PDK in the OpenROAD Physical design flow. Won the outstanding contribution award for the pull request amongst participants worldwide.",
       "tags": [
         "VLSI",
         "Open-Source"
       ],
       "image": {
-        "src": "../../images/559.png",
-        "alt": "Compute in memory"
+        "src": "../../images/openroad.png",
+        "alt": "OpenRoad"
       },
       "links": [
         {
@@ -186,7 +186,7 @@
       "visible": false,
       "category": "Bringing gates together",
       "title": "8Bit CPU",
-      "description": "Built following the video series by BenEater, I spent every rupee I could save as a High school student buying the parts from SP Road. The experience of trimming meters of wire and combining a few dozen of 7400ICs into this enormous CPU finally resulted in the joy of seven-segment LEDs displaying the Fibonacci series.  ",
+      "description": "Built following the video series by BenEater, I spent every rupee I could save as a High school student buying the parts from SP Road. The experience of trimming meters of wire and combining a few dozen 7400ICs into this enormous CPU finally resulted in the joy of seven-segment LEDs displaying the Fibonacci series.  ",
       "tags": [
         "VLSI",
         "Computer Architecture"
@@ -212,7 +212,7 @@
         "Embedded Systems"
       ],
       "image": {
-        "src": "../../images/binaryWW.jpg",
+        "src": "../../images/binaryWW.jpeg",
         "alt": "Binary Wrist Watch"
       },
       "links": [

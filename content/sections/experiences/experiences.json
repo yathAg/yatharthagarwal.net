@@ -5,10 +5,10 @@
       "category": "Embedded Systems Laboratory",
       "title": "Graduate Research Assistant",
       "duration": "October 2023 -",
-      "description": "I am currently a Research assistant at the embedded Systems Laboratory at Purdue. I am designing a end-to-end hardware security system for autonomous systems as a part of the Cognisense JUMP 2.0 center. ",
+      "description": "I am currently a research assistant at the Embedded Systems Laboratory at Purdue. I am designing an end-to-end hardware security system for Unmanned Ariel Vehicles as a part of the Cognisense JUMP 2.0 center. ",
       "tags": [
         "Hardware Security",
-        "Autonomous Systems"
+        "UAV"
       ],
       "image": {
         "src": "../../images/PurdueUniversity.png",
@@ -25,7 +25,7 @@
       "title": "Hardware Engineering Intern",
       "duration": "January 2023 - June 2023",
       "description": "Understood the design architecture and performed DFM analysis for PCBs used in Cisco access space routers.",
-      "description2": "Worked with the Agile Product development methodology and proposed Value engineering ideas for reducing the BOM cost.",
+      "description2": "Worked with the Agile Product development methodology and proposed value engineering ideas to reduce the BOM cost.",
       "tags": [
         "BOM Optimization",
         "DRC Verification"
@@ -62,7 +62,7 @@
       "visible": false,
       "category": "IISc RBCCPS",
       "title": "Research Intern",
-      "duration": "May 2021 - July 2022",
+      "duration": "July 2021 - September 2021",
       "description": "Designed Controller Area Network and RS485 interface shield for STM32 G474 for the Stoch3 quadruped.",
       "description2": "Carried out the torque characterization tests for the U10 Plus BLDC motor and assembled the electronic architecture for the 3-DOF prototype leg.",
       "tags": [

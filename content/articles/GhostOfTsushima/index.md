@@ -1,5 +1,5 @@
 ---
-title: "Ghost of Tsushima"
+title: "Ghost of Tsushima: Falling in love with the beauty of Tsushim"
 description: "Falling in love with the beauty of Tsushima"
 date: "2024-05-22"
 banner:
@@ -14,7 +14,7 @@ keywords:
   - "Ghost of Tsushima"
 ---
 
-### The Ghost of Tsushima: A Samurai's Tale
+### A Samurai's Tale
 
 While *The Witcher 3* will always be my gold standard for RPGs, *Ghost of Tsushima* comes remarkably close with its enthralling samurai lore.
 

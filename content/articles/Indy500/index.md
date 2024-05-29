@@ -12,7 +12,7 @@ keywords:
   - "Indy 500"
 ---
 
-## My First Indy 500 Experience
+### My First Indy 500 Experience
 
 I remember searching F1 tracks while choosing which colleges to apply to. The Austin GP was appealing, but the Indy 500 comes close, especially since it's regarded as among the triple crowns of motorsports.
 

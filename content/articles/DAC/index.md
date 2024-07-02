@@ -15,7 +15,7 @@ keywords:
 
 ## 61st Design Automation Conference
 
-Attending a conference in the United States for the first time was an exciting experience, and I wasn't quite sure what to expect. The week leading up to the event was spent preparing a poster to showcase my work as part of the DAC Young Scholars Program. Being selected for this program was my gateway to participating in this global conference that brought together industry and academia. Over the span of five days, I attended numerous talks, which provided a multidimensional insight into the EDA industry. I connected with people from around the world and, to top it off, explored the vibrant city of San Francisco. Although it’s challenging to summarize everything I learned or remember every session I attended, as I constantly hopped between the countless parallel sessions, I’ve done my best to capture my key takeaways and the sessions that gave me much food for thought.
+Attending a conference in the United States for the first time was an exciting experience, and I wasn't quite sure what to expect. The week leading up to the event was spent preparing a poster to showcase my work as part of the DAC Young Scholars Program. Being selected for this program was my gateway to participating in this global conference that brought together industry and academia. Over the span of five days, I attended numerous talks, which provided a multidimensional insight into the EDA industry. I connected with people from around the world and, to top it off explored the city of San Francisco. Although it’s challenging to summarize everything I learned or remember every session I attended, as I constantly hopped between the countless parallel sessions, I’ve done my best to capture my key takeaways and the sessions that gave me much food for thought.
 
 ---
 
@@ -41,6 +41,8 @@ Given these observations, the prediction is that Nvidia will continue to dominat
 
 ### Cooleys troublemakers
 
+I am officially a fan of John Cooley from Deepchip. 
+
 ### Perspective on security
 
 ### Scaling beyond 5nm and analysis by the Yole Group
@@ -49,25 +51,40 @@ Given these observations, the prediction is that Nvidia will continue to dominat
 
 ---
 
-## Open Source EDA
+## Birds-of-a-Feather: Open-Source EDA, Data and Benchmarking Summit
+
+I am a strong supporter of open-source EDA tools and have learned the most about VLSI through them. Meeting and attending talks by pioneers in the community and participating in the session was truly special. Here is the link to all the slides and talks.
+[https://open-source-eda-birds-of-a-feather.github.io/](https://open-source-eda-birds-of-a-feather.github.io/)
 
 ### GDS factory
 
+Python library aimed towards design analog and photonic ICs [https://github.com/gdsfactory/gdsfactory](https://github.com/gdsfactory/gdsfactory)
+
 ### PACT
 
-### CAse
+Spice based thermal simulator [https://github.com/peaclab/PACT](https://github.com/peaclab/PACT)
 
-### Birds of a Feather
+### tclint
+
+Linting tool for tcl [https://github.com/nmoroze/tclint](https://github.com/nmoroze/tclint)
 
 ---
 
 ## SSH-SoC: Safety and Security in Heterogeneous Open System-on-Chip Platforms
 
+### Jon opentitan
+
+### Ryan Kastner
+
+### Basilisk 
+
+### John east: How we got here
+
 ---
 
 ## Interesting Research projects
 
-### MIT
+### [https://zardini.mit.edu/](https://zardini.mit.edu/)
 
 ### CEDAR
 
@@ -77,8 +94,20 @@ Given these observations, the prediction is that Nvidia will continue to dominat
 
 ## Young Fellows Poster session
 
+Since the start of my master's program, I have seen numerous posters, and it was finally my turn to design and present one. I compiled all my progress and printed it on a massive A0 paper. The poster session of the Young Fellows Program attracted quite a crowd. Presenting my work helped me better articulate my path forward and receive valuable feedback from many people.
+
+![alt text](DAC4.jpg)
+
 ---
 
 ## Exploring San Fransisco
 
+San Francisco is known for its chilly climate, with brisk winds blowing in from the Pacific, but it still has really pleasant weather with a warm sun. The Golden Gate Bridge provides a magnificent backdrop, while the bustling areas of Pier 39 and Fisherman’s Wharf add to the city's charm.
+
 ![alt text](DAC1.jpg)
+
+On the last day of the conference, we took a ride on the historic cable car and visited the lively Pier 39, where we watched the playful sea lions. We then indulged in some local cuisine, savoring the famous sourdough bread with chowder. Our culinary journey continued with a visit to the Ghirardelli Chocolate Factory, where I tasted the best fudge I've ever had. Unfortunately, we missed a tour of the Alcatraz Islands due to a shortage of time.
+
+![alt text](DAC5.jpg)
+
+San Francisco is renowned for its exceptional food scene, but it often comes with a hefty price tag. Despite this, I enjoyed some incredible dishes, including delectable hummus and the legendary overloaded Mission burrito.

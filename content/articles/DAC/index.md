@@ -19,7 +19,7 @@ Attending a conference in the United States for the first time was an exciting e
 
 ---
 
-### Key Industry Trends
+## Key Industry Trends
 
 **Hardware and Software Interaction:** Understanding the interaction between hardware and software is crucial, and it’s important to delve deeply into each layer. When building new hardware architectures, analyzing the different levels of abstraction in software has a profound impact. Similarly, leveraging hardware requires designing software accordingly. Jim Keller emphasized this in his keynote, showcasing how Tensorrent leverages multiple local compute units that excel in long-distance data communication.
 
@@ -41,7 +41,7 @@ Given these observations, the prediction is that Nvidia will continue to dominat
 
 ### Cooleys troublemakers
 
-I am officially a fan of John Cooley from Deepchip. 
+I am officially a fan of John Cooley from Deepchip.
 
 ### Perspective on security
 
@@ -58,37 +58,42 @@ I am a strong supporter of open-source EDA tools and have learned the most about
 
 ### GDS factory
 
-Python library aimed towards design analog and photonic ICs [https://github.com/gdsfactory/gdsfactory](https://github.com/gdsfactory/gdsfactory)
+Python library aimed towards design analog and photonic ICs
+[https://github.com/gdsfactory/gdsfactory](https://github.com/gdsfactory/gdsfactory)
 
 ### PACT
 
-Spice based thermal simulator [https://github.com/peaclab/PACT](https://github.com/peaclab/PACT)
+Spice based thermal simulator
+[https://github.com/peaclab/PACT](https://github.com/peaclab/PACT)
 
 ### tclint
 
-Linting tool for tcl [https://github.com/nmoroze/tclint](https://github.com/nmoroze/tclint)
+Linting tool for tcl
+[https://github.com/nmoroze/tclint](https://github.com/nmoroze/tclint)
 
 ---
 
 ## SSH-SoC: Safety and Security in Heterogeneous Open System-on-Chip Platforms
 
-### Jon opentitan
+### Jon Michelson: OpenTitan
 
-### Ryan Kastner
+### Ryan Kastner: Open Silicon Security
 
-### Basilisk 
+### Paul Scheffler: Basilisk
 
-### John east: How we got here
+### John East: How we got here
 
 ---
 
 ## Interesting Research projects
 
-### [https://zardini.mit.edu/](https://zardini.mit.edu/)
+### Automated Co-design of Complex Systems
+
+[https://zardini.mit.edu/](https://zardini.mit.edu/)
 
 ### CEDAR
 
-### Robotics talks
+### The Magnificent Seven Challenges and Opportunities in Domain-Specific Accelerator Design for Autonomous Systems
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Running My first 10k "
 description: ""
-date: "2024-08-04"
+date: "2024-08-11"
 banner:
   src: "./10k1.jpg"
   alt: "Mysore Palace"

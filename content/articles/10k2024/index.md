@@ -7,7 +7,7 @@ banner:
   alt: "Mysore Palace"
   caption: ''
 categories:
-  - "Travell"
+  - "Travel"
 keywords:
   - "Road Trip"
   - "Summer 2024"

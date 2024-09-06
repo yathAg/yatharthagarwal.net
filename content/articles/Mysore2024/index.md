@@ -7,7 +7,7 @@ banner:
   alt: "Mysore Palace"
   caption: ''
 categories:
-  - "Travell"
+  - "Travel"
 keywords:
   - "Road Trip"
   - "Summer 2024"
@@ -19,7 +19,7 @@ After a long wait, the weekend road trip with the boys finally happened. The jou
 ![Credits: Babariya](mysore4.jpg)
 Though I can drive, it had been a year since I last did, and I’d never driven an SUV before - especially not with a whole load of seven people. Everyone was understandably on edge with me at the wheel, but we made it to Mysore Palace in one piece. After snapping gorgeous photos and filling up delicious local biryani, we headed to our Airbnb, where our shenanigans continued until 3 AM.
 ![Credits: Babariya](mysore5.jpg)
-Running on just three hours of sleep, we somehow made it to the Kabini Safari; thanks to Babaria for waking us up. Though the safari turned out to be a sleepy affair, and we didn’t spot the elusive Indian tiger, we did learn that a leopard is called "peeptiya" in Marathi—a fun fact to take away.
+Running on just three hours of sleep, we somehow made it to the Kabini Safari; thanks to Babaria for waking us up. Though the safari turned out to be a sleepy affair, and we didn’t spot the elusive Indian tiger, we did learn that a leopard is called "beebtiya" in Marathi—a fun fact to take away.
 ![Sleeep](mysore6.jpg)
 The next day, we took on the Mysore Zoo, which was worth the 4 km walk. The zoo had almost every animal you could imagine, with the gentle giants being my favorite.
 On our way back to Bangalore, we made a final stop at a vintage car museum with an interesting collection that nicely capped off our trip with my only regret not having another of those amazing Mysore masala dosa.

@@ -33,6 +33,8 @@ The trip began at a sluggish pace, stuck in an hour-long traffic jam on I-70. Bu
 
 We arrived at Arches National Park just before sunset and set off on a short 3-kilometer hike to witness the iconic Delicate Arch. As the sun dipped below the horizon, it cast its gorgeous vermilion hues across the arch and onto the snow-capped La Sal Mountains in the distance—a sight that felt almost surreal. With hearts full from the day’s adventure, we headed back to our stay in Moab to wrap up an incredible first day.
 
+![alt text](RT6.jpg)
+
 ### From Mesa Arches to Bryce Canyon's Whimsical Hoodoos
 
 Miraculously, we managed to make it out on time for a short hike to the Mesa Arch in Canyonlands National Park. While the arch itself may have felt a bit underwhelming, the stunning cliffside views stretching across the horizon, bathed in the soft hues of dawn, more than made up for it. After taking in the sights, we left Canyonlands and headed to our next destination.
@@ -41,17 +43,23 @@ Miraculously, we managed to make it out on time for a short hike to the Mesa Arc
 
 Driving through Capitol Reef National Park, we didn’t get the chance to explore its main viewpoints. To add a touch of suspense, a park ranger warned us about a potential incoming snowstorm. Thankfully, it amounted to nothing more than a gentle dusting of snow as we continued through the enchanting Dixie National Forest. The drive felt like something out of a storybook, with pine trees lining both sides of the road and occasional glimpses of expansive snow-covered mountains. We even spotted tiny stick-like figures riding gondolas up to ski resorts nestled in the peaks—a truly magical sight.
 
+![alt text](RT7.jpg)
+
 As dusk approached, we arrived at Bryce Canyon National Park and embarked on a trail along the canyon rim. This gave us our first glimpse of the fascinating and whimsical hoodoos, their strange, sculpted forms illuminated in the fading light.
 
 ### Into the Heart of Bryce Canyon and the Journey to Las Vegas
 
 After a restful night in Panguitch, we set out for our final day in the red rock wonderland—a hike into the heart of Bryce Canyon, home to its peculiar, towering hoodoos, seemingly sculpted over millennia by mythical giants. Here’s an intriguing fun fact: according to Native American lore, these hoodoos represent human souls punished by the trickster Coyote for their sins. This eerie myth added a fascinating layer to our journey.
 
+![alt text](RT1.jpg)
+
 We embarked on the Navajo and Peekaboo Loop trail combination—a 7.5-kilometer trek with 500 meters of elevation change that took about three hours to complete. Unlike the Grand Canyon’s steep, relentless descent, this hike was much more dynamic, with gentle ups and downs that let us fully immerse ourselves in the beauty around us. Walking among the massive hoodoos, passing under stunning natural arches carved into the rock, and taking in the breathtaking views at every turn made it the highlight of the trip.
 
 ![alt text](RT5.jpg)
 
 While the trek was undoubtedly physically demanding, it offered an unmatched sense of satisfaction. For those three hours, every sense was alive—the chirping of birds, the crisp canyon air, the earthy scent of dry mud and pinecones, and the sight of the winding trail cutting through a picturesque, otherworldly landscape.
+
+![alt text](RT9.jpg)
 
 After the hike, we drove through the rest of Bryce Canyon to soak in its remaining splendor before heading off on our final leg to Las Vegas. The journey took us back through the scenic State Highway 128 and Interstate 15, where we traded the tranquility of the wilderness for the glittering glamor and glitz of the Las Vegas Strip.
 

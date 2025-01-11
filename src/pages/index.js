@@ -21,7 +21,7 @@ export default function IndexPage() {
         <InterestsSection sectionId="details" heading="Interests"  buttonVisible="true" isPage="false"/>
         <ProjectSection sectionId="projects" heading="Projects" buttonVisible="true" isPage="false"/>
         <ExperienceSection sectionId="experience" heading="Experience" buttonVisible="true" isPage="false"/>
-        <ArticlesSection sectionId="articles" heading="Latest Articles" sources={['Blog']} />
+        <ArticlesSection sectionId="articles" heading="Recent Blogs" sources={['Blog']} />
       </Page>
     </>
   );

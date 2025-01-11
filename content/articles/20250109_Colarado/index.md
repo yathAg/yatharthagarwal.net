@@ -3,9 +3,9 @@ title: "Ultimate Utah Roadtrip"
 description: "A 2000-kilometer journey through the American West, exploring national parks, hoodoos, and the glitz of Las Vegas."
 date: "2025-01-09"
 banner:
-  src: "./RT1.jpg"
-  alt: "Sunset over Arches National Park"
-  caption: "A stunning view of Arches National Park at sunset, one of the many breathtaking stops on our road trip."
+  src: "./RT4.jpg"
+  alt: "Sunset over Bryce Canyon National Park"
+  caption: ""
 categories:
   - "Travel"
 keywords:
@@ -29,11 +29,15 @@ Our five-day journey began at CU Boulder, weaving through awe-inspiring landscap
 
 The trip began at a sluggish pace, stuck in an hour-long traffic jam on I-70. But once the road cleared, we were finally on our way. While planning our route, inspired by a YouTube video, we decided to take a detour along State Highway 128, even though it added an extra hour to the journey. That decision turned out to be one of the best of the trip. Unlike the fast-paced monotony of the three-lane I-70, Highway 128 meanders through Utah’s stunning landscapes. With empty roads and not another soul in sight for miles, we were treated to breathtaking views, enhanced by scenic turnouts placed at all the perfect spots.
 
+![alt text](RT2.jpg)
+
 We arrived at Arches National Park just before sunset and set off on a short 3-kilometer hike to witness the iconic Delicate Arch. As the sun dipped below the horizon, it cast its gorgeous vermilion hues across the arch and onto the snow-capped La Sal Mountains in the distance—a sight that felt almost surreal. With hearts full from the day’s adventure, we headed back to our stay in Moab to wrap up an incredible first day.
 
 ### From Mesa Arches to Bryce Canyon's Whimsical Hoodoos
 
 Miraculously, we managed to make it out on time for a short hike to the Mesa Arch in Canyonlands National Park. While the arch itself may have felt a bit underwhelming, the stunning cliffside views stretching across the horizon, bathed in the soft hues of dawn, more than made up for it. After taking in the sights, we left Canyonlands and headed to our next destination.
+
+![alt text](RT3.jpg)
 
 Driving through Capitol Reef National Park, we didn’t get the chance to explore its main viewpoints. To add a touch of suspense, a park ranger warned us about a potential incoming snowstorm. Thankfully, it amounted to nothing more than a gentle dusting of snow as we continued through the enchanting Dixie National Forest. The drive felt like something out of a storybook, with pine trees lining both sides of the road and occasional glimpses of expansive snow-covered mountains. We even spotted tiny stick-like figures riding gondolas up to ski resorts nestled in the peaks—a truly magical sight.
 
@@ -44,6 +48,8 @@ As dusk approached, we arrived at Bryce Canyon National Park and embarked on a t
 After a restful night in Panguitch, we set out for our final day in the red rock wonderland—a hike into the heart of Bryce Canyon, home to its peculiar, towering hoodoos, seemingly sculpted over millennia by mythical giants. Here’s an intriguing fun fact: according to Native American lore, these hoodoos represent human souls punished by the trickster Coyote for their sins. This eerie myth added a fascinating layer to our journey.
 
 We embarked on the Navajo and Peekaboo Loop trail combination—a 7.5-kilometer trek with 500 meters of elevation change that took about three hours to complete. Unlike the Grand Canyon’s steep, relentless descent, this hike was much more dynamic, with gentle ups and downs that let us fully immerse ourselves in the beauty around us. Walking among the massive hoodoos, passing under stunning natural arches carved into the rock, and taking in the breathtaking views at every turn made it the highlight of the trip.
+
+![alt text](RT5.jpg)
 
 While the trek was undoubtedly physically demanding, it offered an unmatched sense of satisfaction. For those three hours, every sense was alive—the chirping of birds, the crisp canyon air, the earthy scent of dry mud and pinecones, and the sight of the winding trail cutting through a picturesque, otherworldly landscape.
 

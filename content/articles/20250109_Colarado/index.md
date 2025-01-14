@@ -59,7 +59,7 @@ We embarked on the Navajo and Peekaboo Loop trail combination—a 7.5-kilometer 
 
 While the trek was undoubtedly physically demanding, it offered an unmatched sense of satisfaction. For those three hours, every sense was alive—the chirping of birds, the crisp canyon air, the earthy scent of dry mud and pinecones, and the sight of the winding trail cutting through a picturesque, otherworldly landscape.
 
-![alt text](RT9.jpg)
+![alt text](RT15.jpg)
 
 After the hike, we drove through the rest of Bryce Canyon to soak in its remaining splendor before heading off on our final leg to Las Vegas. The journey took us back through the scenic State Highway 128 and Interstate 15, where we traded the tranquility of the wilderness for the glittering glamor and glitz of the Las Vegas Strip.
 
@@ -79,4 +79,4 @@ Even though our Vegas experience didn’t match the cinematic fantasies, it was 
 
 With a relaxing end to our adventure, we bid farewell to our trusty companion, the Chevrolet Malibu, and headed back to Purdue, ready to embrace 2025. This nature-filled and glam-soaked road trip is one I’ll cherish for years to come—and, of course, one I won’t stop talking about in the days ahead!
 
-![I've fallen in love with hiking but am still trying to figure out how to tie my shoelaces.](RT12.jpg)
+![alt](RT12.jpg "I've fallen in love with hiking but am still trying to figure out how to tie my shoelaces.")

@@ -49,7 +49,7 @@ As dusk approached, we arrived at Bryce Canyon National Park and embarked on a t
 
 ### Into the Heart of Bryce Canyon and the Journey to Las Vegas
 
-After a restful night in Panguitch, we set out for our final day in the red rock wonderland—a hike into the heart of Bryce Canyon, home to its peculiar, towering hoodoos, seemingly sculpted over millennia by mythical giants. Here’s an intriguing fun fact: according to Native American lore, these hoodoos represent human souls punished by the trickster Coyote for their sins. This eerie myth added a fascinating layer to our journey.
+After a restful night in Panguitch, we set out for our final day in the red rock wonderland—a hike into the heart of Bryce Canyon, home to its peculiar, towering hoodoos, seemingly sculpted by mythical giants. Fun fact: according to Native American lore, these hoodoos represent human souls punished by the trickster Coyote for their sins.
 
 ![alt text](RT1.jpg)
 
@@ -67,7 +67,9 @@ After the hike, we drove through the rest of Bryce Canyon to soak in its remaini
 
 Hyped across cultures and immortalized by movies like The Hangover and Now You See Me, Las Vegas has always held a certain allure. Add to that the excitement of F1 hosting a race in the city, and we were buzzing with anticipation. However, we arrived with absolutely no plans for how to spend our two days there. Friends had mentioned that Vegas could be surprisingly affordable, but somehow, we seemed to miss that memo. Most of the shows and activities we came across were either well beyond our modest budget or completely sold out.
 
-For the most part, I’ll stick to the old adage: “What happens in Vegas stays in Vegas.” That said, it was fascinating to wander through the opulent halls of the Bellagio and Caesars Palace, soaking in their grandeur. We also experienced the vibrant and quirky atmosphere of Fremont Street, a place brimming with life and entertainment. Of course, no trip to Vegas would be complete without trying our luck at the slot machines. We spent $20 on some quirky ones—not with any expectation of winning but to get a sense of what draws people to mindlessly tap away at them.
+![alt text](RT13.jpg)
+
+For the most part, I’ll stick to the saying: “What happens in Vegas stays in Vegas.” That said, it was fascinating to wander through the stricking halls of the Bellagio and Caesars Palace, soaking in their grandeur. We also experienced the vibrant and quirky atmosphere of Fremont Street, a place brimming with life and entertainment. Of course, no trip to Vegas would be complete without trying our luck at the slot machines. We spent $20 on some quirky ones—not with any expectation of winning but to get a sense of what draws people to mindlessly tap away at them.
 
 We also couldn’t miss the famed Las Vegas buffets and decided to try the Wicked Spoon. The spread was undeniably vast, offering an array of impressive dishes. However, in my opinion, it didn’t quite live up to the hype—I’ve had better meals at restaurants specializing in a single cuisine.
 
@@ -76,3 +78,5 @@ Even though our Vegas experience didn’t match the cinematic fantasies, it was 
 ### End of the Road: Farewell to an Unforgettable Journey
 
 With a relaxing end to our adventure, we bid farewell to our trusty companion, the Chevrolet Malibu, and headed back to Purdue, ready to embrace 2025. This nature-filled and glam-soaked road trip is one I’ll cherish for years to come—and, of course, one I won’t stop talking about in the days ahead!
+
+![I've fallen in love with hiking but am still trying to figure out how to tie my shoelaces.](RT12.jpg)

@@ -1,3 +1,3 @@
 # My-website
 
-[Check it out!](https://yatharthagarwal.netlify.app/)
+[Check it out!](https://yatharthagarwal.net/)

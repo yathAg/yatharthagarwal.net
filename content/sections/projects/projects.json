@@ -2,6 +2,69 @@
   "projects": [
     {
       "visible": true,
+      "category": "Hardware Security for Embedded Systems",
+      "title": "SecuPilot",
+      "description": "SecuPilot is a security coprocessor-integrated platform for autonomous UAV security, providing end-to-end protection across the operational lifecycle. This research work has been accepted for publication in ACM Transactions on Embedded Computing Systems (TECS) and will be presented at ESWEEK 2025.",
+      "tags": [
+        "Security",
+        "System Design",
+        "Research"
+      ],
+      "image": {
+        "src": "../../images/SecuPilot.jpeg",
+        "alt": "SecuPilot"
+      },
+      "links": [
+        {
+          "type": "external",
+          "url": "https://dl.acm.org/doi/abs/10.1145/3762642"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "Efficient Multimodal System for Edge AI",
+      "title": "ECO",
+      "description": "ECO is a novel approach for efficient multimodal AI on commercial Neural Processing Units (NPUs) through context-aware sensing and compute optimizations. This collaborative research work has been accepted for presentation at ISLPED 2025.",
+      "tags": [
+        "AI",
+        "System Design",
+        "Research"
+      ],
+      "image": {
+        "src": "../../images/ECO.jpeg",
+        "alt": "ECO"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/arghadippurdue/ECO_Demo"
+        }
+      ]
+    },
+    {
+      "visible": false,
+      "category": "Sensor & Memory Architecture for AIoT",
+      "title": "PRISM",
+      "description": "PRISM explores energy-efficient AIoT implementations using Processing-In-Sensor+Memory architectures for battery-free devices. This collaborative research was presented at IEEE COINS 2025.",
+      "tags": [
+        "AI",
+        "VLSI",
+        "Research"
+      ],
+      "image": {
+        "src": "../../images/PRISM.jpeg",
+        "alt": "PRISM"
+      },
+      "links": [
+        {
+          "type": "external",
+          "url": "https://ieeexplore.ieee.org/abstract/document/11125788"
+        }
+      ]
+    },
+    {
+      "visible": false,
       "category": "Making education accessible ",
       "title": "VSDSquadron",
       "description": "VSDSquadron is a development board designed to make learning RISC V and VLSI accessible. Based on the openMPW shuttle, my goal has been to make VSDSquadron scalable and optimized for production without compromising ease of use. It also has a more popular sibling called VSDSquadronMini.",

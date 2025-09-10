@@ -4,7 +4,7 @@
       "visible": true,
       "category": "Hardware Security for Embedded Systems",
       "title": "SecuPilot",
-      "description": "SecuPilot is a security coprocessor-integrated platform for autonomous UAV security, providing end-to-end protection across the operational lifecycle. This research work has been accepted for publication in ACM Transactions on Embedded Computing Systems (TECS) and will be presented at ESWEEK 2025.",
+      "description": "SecuPilot is a security coprocessor-integrated platform for autonomous UAV security, providing end-to-end protection across the operational lifecycle. This research work has been accepted in ACM Transactions on Embedded Computing Systems (TECS) and will be presented at ESWEEK 2025.",
       "tags": [
         "Security",
         "System Design",
@@ -25,7 +25,7 @@
       "visible": true,
       "category": "Efficient Multimodal System for Edge AI",
       "title": "ECO",
-      "description": "ECO is a novel approach for efficient multimodal AI on commercial Neural Processing Units (NPUs) through context-aware sensing and compute optimizations. This collaborative research work has been accepted for presentation at ISLPED 2025.",
+      "description": "ECO is a novel approach for efficient multimodal AI on commercial Neural Processing Units (NPUs) through context-aware sensing and compute optimizations. This collaborative research work has been accepted in ISLPED 2025.",
       "tags": [
         "AI",
         "System Design",
@@ -46,7 +46,7 @@
       "visible": false,
       "category": "Sensor & Memory Architecture for AIoT",
       "title": "PRISM",
-      "description": "PRISM explores energy-efficient AIoT implementations using Processing-In-Sensor+Memory architectures for battery-free devices. This collaborative research was presented at IEEE COINS 2025.",
+      "description": "PRISM explores energy-efficient AIoT implementations using Processing-In-Sensor+Memory architectures for battery-free devices. This collaborative research was accepted in IEEE COINS 2025.",
       "tags": [
         "AI",
         "VLSI",
@@ -88,7 +88,7 @@
       ]
     },
     {
-      "visible": true,
+      "visible": false,
       "category": "Taking to the skies",
       "title": "Seraphim: Autonomous Hexrotor",
       "description": "Seraphim is an autonomous, six feet wide hexrotor designed at ProjectMANAS. Capable of autonomous navigation, image detection and payload delivery, it was our entry to the 2022 AUVSI SUAS Challenge held in Maryland USA. ",

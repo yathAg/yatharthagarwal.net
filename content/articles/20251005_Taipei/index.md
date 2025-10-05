@@ -47,9 +47,13 @@ When I read that there’s a town said to have inspired Spirited Away, I knew I 
 
 The city’s landmarks did not disappoint. The Chiang Kai‑shek Memorial Hall is truly grand and an impressive tribute to a defining figure in Taiwan’s modern history. Next came the hike up Elephant Mountain: a steep climb on the city’s edge, with a seemingly endless spiral of steps enough to make your calves shiver. The summit rewards you with a beautiful view of 101; I reached just in time for sunset on a slightly cloudy day, watching the sky burn vermilion while 101’s polished façade gleamed in shades of blue, until the blinking city lights took over. The descent ended at a nearby Buddhist temple, where a kind older lady asked me to light incense sticks. That moment felt special. Across the many Buddhist temples I visited in the city, each had unique wall art, bright red pillars, and gilded carvings. One of the finest was Longshan Temple, with intricate detailing and a broad courtyard; monks were giving a sermon when I visited, a vibrant, textured experience.
 
+![alt text](taipei12.jpg)
+
 ## A City That Trusts You Back
 
 What a wonderful city. It’s clearly designed with pedestrians in mind, making commuting easy and blending the rush of a modern metropolis into a calm atmosphere. Studded with 7‑Elevens and dragon‑laden temples in every nook and corner, Taipei is endlessly fun and easy to explore. I picked up a city travel card that worked on the neon-lit buses and the frequent, expansive, and dirt-cheap MRT. One theme echoed across the city: cleanliness and patience. People wait for pedestrians, and they let riders disembark before boarding the metro. It’s not just advanced; it’s people‑friendly. Free umbrellas on rainy days, water‑refilling stations everywhere, and warning sirens outside underground parking lots to alert pedestrians as cars exit, I could go on. The city made me feel safe and respected, whether on a tiny side street or in a bustling market. I haven’t experienced this combination anywhere else, and I hope more cities move in this direction.
+
+![alt text](taipei13.jpg)
 
 ![alt text](taipei1.jpg)
 ![alt text](taipei2.jpg)
@@ -62,8 +66,7 @@ What a wonderful city. It’s clearly designed with pedestrians in mind, making 
 ![alt text](taipei9.jpg)
 ![alt text](taipei10.jpg)
 ![alt text](taipei11.jpg)
-![alt text](taipei12.jpg)
-![alt text](taipei13.jpg)
+
+
 ![alt text](taipei14.jpg)
 ![alt text](taipei15.jpg)
-![alt text](taipei16.jpg)

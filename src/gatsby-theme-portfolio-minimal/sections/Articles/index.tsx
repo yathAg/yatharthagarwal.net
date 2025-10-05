@@ -60,6 +60,7 @@ export function ArticlesSection(props: ArticlesSectionProps): React.ReactElement
                         publishedAt: new Date(article.date.replace(/-/g, '/')),
                         link: article.slug,
                         readingTime: article.readingTime.text,
+                        image: article.banner || undefined,
                     });
                 });
             }
@@ -80,7 +81,7 @@ export function ArticlesSection(props: ArticlesSectionProps): React.ReactElement
                 <Slider additionalClasses={[classes.Articles]}>
                     {articles.length > 0
                         ? articles.slice(0, 3).map((article, key) => {
-                              return <ArticleCard key={key} data={article} />;
+                              return <ArticleCard key={key} data={article} showBanner={Boolean(article.image)} />;
                           })
                         : [...Array(3)].map((_, key) => {
                               return <ArticleCardSkeleton key={key} />;

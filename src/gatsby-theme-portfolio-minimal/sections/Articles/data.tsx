@@ -26,6 +26,14 @@ interface ArticlePreviewQueryResult {
             readingTime: {
                 text: string;
             };
+            banner?: {
+                alt: string | null;
+                src: {
+                    childImageSharp: {
+                        gatsbyImageData: unknown;
+                    };
+                } | null;
+            } | null;
         }[];
     };
 }
@@ -67,6 +75,14 @@ export const useLocalDataSource = (): ArticlePreviewQueryResult => {
                     title
                     readingTime {
                         text
+                    }
+                    banner {
+                        alt
+                        src {
+                            childImageSharp {
+                                gatsbyImageData(width: 660, height: 400, placeholder: BLURRED)
+                            }
+                        }
                     }
                 }
             }

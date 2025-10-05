@@ -3,9 +3,9 @@ import { Animation } from '../../../../node_modules/gatsby-theme-portfolio-minim
 import { Section } from '../../../../node_modules/gatsby-theme-portfolio-minimal/src/components/Section';
 import { Slider } from '../../../../node_modules/gatsby-theme-portfolio-minimal/src/components/Slider';
 import { ArticleCard, ArticleCardSkeleton } from '../../../../node_modules/gatsby-theme-portfolio-minimal/src/components/ArticleCard';
-import { useSiteMetadata } from '../../hooks/useSiteMetadata';
+import { useSiteMetadata } from '../../../../node_modules/gatsby-theme-portfolio-minimal/src/hooks/useSiteMetadata';
 import { useLocalDataSource, useMediumFeed } from './data';
-import { PageSection } from '../../types';
+import { PageSection } from '../../../../node_modules/gatsby-theme-portfolio-minimal/src/types';
 import * as classes from './style.module.css';
 
 enum ArticleSource {

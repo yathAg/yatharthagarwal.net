@@ -4,7 +4,6 @@ import { Section } from '../../../../node_modules/gatsby-theme-portfolio-minimal
 import { Slider } from '../../../../node_modules/gatsby-theme-portfolio-minimal/src/components/Slider';
 import { Button, ButtonType } from '../../components/myButton';
 import { Experience } from '../../components/Experience';
-import { PageSection } from 'gatsby-theme-portfolio-minimal/src/types';
 import { useLocalDataSource } from './data';
 import * as classes from './style.module.css';
 

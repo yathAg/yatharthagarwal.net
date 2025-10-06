@@ -5,7 +5,6 @@ import { Slider } from '../../../../node_modules/gatsby-theme-portfolio-minimal/
 import { ArticleCard, ArticleCardSkeleton } from '../../../../node_modules/gatsby-theme-portfolio-minimal/src/components/ArticleCard';
 import { useSiteMetadata } from '../../../../node_modules/gatsby-theme-portfolio-minimal/src/hooks/useSiteMetadata';
 import { useLocalDataSource, useMediumFeed } from './data';
-import { PageSection } from '../../../../node_modules/gatsby-theme-portfolio-minimal/src/types';
 import * as classes from './style.module.css';
 
 enum ArticleSource {
@@ -22,11 +21,16 @@ interface ArticleSourceConfiguration {
     };
 }
 
-interface ArticlesSectionProps extends PageSection {
+interface pageSection {
+    sectionId: string;
+    heading?: string;
+}
+
+interface ArticlesSectionProps extends pageSection {
     sources: ArticleSource[];
 }
 
-export function ArticlesSection(props: ArticlesSectionProps): React.ReactElement {
+function ArticlesSection(props: ArticlesSectionProps): React.ReactElement {
     const response = useLocalDataSource();
     const [articles, setArticles] = React.useState<ArticleCard[]>([]);
     const configuration = validateAndConfigureSources(props.sources);
@@ -60,6 +64,7 @@ export function ArticlesSection(props: ArticlesSectionProps): React.ReactElement
                         publishedAt: new Date(article.date.replace(/-/g, '/')),
                         link: article.slug,
                         readingTime: article.readingTime.text,
+                        image: article.banner || undefined,
                     });
                 });
             }
@@ -80,7 +85,7 @@ export function ArticlesSection(props: ArticlesSectionProps): React.ReactElement
                 <Slider additionalClasses={[classes.Articles]}>
                     {articles.length > 0
                         ? articles.slice(0, 3).map((article, key) => {
-                              return <ArticleCard key={key} data={article} />;
+                              return <ArticleCard key={key} data={article} showBanner={Boolean(article.image)} />;
                           })
                         : [...Array(3)].map((_, key) => {
                               return <ArticleCardSkeleton key={key} />;
@@ -90,6 +95,8 @@ export function ArticlesSection(props: ArticlesSectionProps): React.ReactElement
         </Animation>
     );
 }
+
+export default ArticlesSection;
 
 // validateAndConfigureSources: Sources for articles can be defined as props (e.g. sources=["Medium"])
 // Currently, only Medium can be used as a source but it is thinkable to extend this approach to other

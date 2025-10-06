@@ -96,6 +96,7 @@ function ArticlesSection(props: ArticlesSectionProps): React.ReactElement {
     );
 }
 
+export { ArticlesSection };
 export default ArticlesSection;
 
 // validateAndConfigureSources: Sources for articles can be defined as props (e.g. sources=["Medium"])

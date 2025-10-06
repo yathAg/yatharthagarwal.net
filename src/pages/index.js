@@ -3,13 +3,12 @@ import {
   AboutSection,
   HeroSection,
   InterestsSection,
-  ArticlesSection,
   Page,
   Seo
 } from "gatsby-theme-portfolio-minimal";
 import ExperienceSection from "../gatsby-theme-portfolio-minimal/sections/Experiences/index.tsx";
 import ProjectSection from "../gatsby-theme-portfolio-minimal/sections/Projects/index.tsx";
-// import ArticlesSection from "../gatsby-theme-portfolio-minimal/sections/Articles/index.tsx";
+import ArticleSection from "../gatsby-theme-portfolio-minimal/sections/Articles_home/index.tsx";
 
 
 export default function IndexPage() {
@@ -22,7 +21,7 @@ export default function IndexPage() {
         <InterestsSection sectionId="details" heading="Interests"  buttonVisible="true" isPage="false"/>
         <ProjectSection sectionId="projects" heading="Projects" buttonVisible="true" isPage="false"/>
         <ExperienceSection sectionId="experience" heading="Experience" buttonVisible="true" isPage="false"/>
-        <ArticlesSection sectionId="articles" heading="Recent Blogs" sources={['Blog']} />
+        <ArticleSection sectionId="articles" heading="Recent Blogs" sources={['Blog']} />
       </Page>
     </>
   );

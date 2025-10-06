@@ -4,11 +4,11 @@ import {
   HeroSection,
   InterestsSection,
   Page,
-  Seo
+  Seo,
+  ArticlesSection
 } from "gatsby-theme-portfolio-minimal";
 import ExperienceSection from "../gatsby-theme-portfolio-minimal/sections/Experiences/index.tsx";
 import ProjectSection from "../gatsby-theme-portfolio-minimal/sections/Projects/index.tsx";
-import ArticlesSection from "../gatsby-theme-portfolio-minimal/sections/Articles/index.tsx";
 
 
 export default function IndexPage() {

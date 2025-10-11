@@ -4,45 +4,10 @@ const svgToMiniDataURI = require('mini-svg-data-uri');
 const { default: PQueue } = require('p-queue');
 const { optimize } = require('svgo');
 
-
-module.exports = ({ createResolvers, store, reporter, cache }) => {
+module.exports = ({ createResolvers, store, reporter }) => {
     createResolvers({
         ArticleMarkdown: {
             body: { resolve: parentResolverPassthrough('html') },
-            // Robustly resolve banner.src -> File without relying on @fileByRelativePath
-            banner: {
-                type: 'BannerImage',
-                resolve: async (source, args, context) => {
-                    const banner = source.banner;
-                    if (!banner || !banner.src) return banner || null;
-                    try {
-                        const parentMd = context.nodeModel.getNodeById({ id: source.parent });
-                        if (!parentMd) return { ...banner, src: null };
-                        const fileNode = context.nodeModel.getNodeById({ id: parentMd.parent });
-                        if (!fileNode) return { ...banner, src: null };
-                        const baseDir = fileNode.dir || path.dirname(fileNode.absolutePath || '');
-                        // Build a normalized absolute path that is consistent across OSes
-                        const absPath = path.resolve(baseDir, banner.src);
-                        const target = normalizePath(absPath);
-
-                        // Some Gatsby setups may store absolutePath with different separators.
-                        // To be robust, scan File nodes and compare normalized absolute paths.
-                        const allFiles = context.nodeModel.getAllNodes({ type: 'File' }) || [];
-                        const matched = allFiles.find((f) => normalizePath(f.absolutePath) === target) || null;
-
-                        return { ...banner, src: matched };
-                    } catch (e) {
-                        reporter.warn(`Failed to resolve banner image for article ${source.slug}: ${e}`);
-                        return { ...source.banner, src: null };
-                    }
-                },
-            },
-        },
-        BannerImage: {
-            src: {
-                type: 'File',
-                resolve: (source) => (source && source.src ? source.src : null),
-            },
         },
         File: {
             svg: {
@@ -81,12 +46,6 @@ function parentResolverPassthrough(field, defaultValue) {
 const queue = new PQueue({
     concurrency: 5,
 });
-
-function normalizePath(p) {
-    if (!p) return '';
-    // Replace backslashes with forward slashes
-    return p.split('\\').join('/');
-}
 
 async function resolveSvgToInlineSvg({ source, store, reporter }) {
     const { absolutePath } = source;

@@ -3,8 +3,8 @@ import {
   AboutSection,
   HeroSection,
   InterestsSection,
-  ArticlesSection,
   Page,
+  ArticlesSection,
   Seo
 } from "gatsby-theme-portfolio-minimal";
 import ExperienceSection from "../gatsby-theme-portfolio-minimal/sections/Experiences/index.tsx";

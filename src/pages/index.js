@@ -18,10 +18,10 @@ export default function IndexPage() {
       <Page useSplashScreenAnimation>
         <HeroSection sectionId="hero" />
         <AboutSection sectionId="about" heading="About Me" />
+        <ArticlesSection sectionId="articles" heading="Recent Blogs" sources={['Blog']} />
         <InterestsSection sectionId="details" heading="Interests"  buttonVisible="true" isPage="false"/>
         <ProjectSection sectionId="projects" heading="Projects" buttonVisible="true" isPage="false"/>
         <ExperienceSection sectionId="experience" heading="Experience" buttonVisible="true" isPage="false"/>
-        <ArticlesSection sectionId="articles" heading="Recent Blogs" sources={['Blog']} />
       </Page>
     </>
   );

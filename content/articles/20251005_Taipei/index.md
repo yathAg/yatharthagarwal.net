@@ -3,7 +3,7 @@ title: "ESWEEK2025: Taipei"
 description: "In love with the calm"
 date: "2025-10-05"
 banner:
-  src: "./taipei3.jpg"
+  src: "yatharthagarwal.net/content/articles/20251005_Taipei/taipei3.jpg"
   alt: "Taipei 101"
 categories:
   - "Travel"

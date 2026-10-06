@@ -12,12 +12,13 @@
       ],
       "image": {
         "src": "../../images/MultiLinkSafety.png",
-        "alt": "Multi-link safety filter around a VLA policy"
+        "alt": "Multi-link safety filter around a VLA policy",
+        "linkTo": "/multi-link/"
       },
       "links": [
         {
           "type": "external",
-          "url": "https://yathag.github.io/multilink-safety-filter/"
+          "url": "/multi-link/"
         }
       ]
     },

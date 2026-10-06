@@ -1,9 +1,5 @@
 {
   "intro": "Hey",
-  "heroPhoto": {
-    "src": "../../images/about_me_small.jpeg",
-    "alt": "My Photo"
-  },
   "image": {
     "src": "../../images/waving-hand.png",
     "alt": "Waving Hand Emoji"
@@ -14,7 +10,7 @@
     "highlight": "Purdue University",
     "suffix": "."
   },
-  "description": "Some people say, \"Do hard things.\" Others warn, \"Hardware is hard.\" Me? I'm busy building PCBs and loving every circuit of it.",
+  "description": "There are 10 types of people in the world: those who understand binary and those who don't.",
   "socialProfiles": {
     "from": ["LinkedIn", "Github", "Mail"],
     "showIcons": true

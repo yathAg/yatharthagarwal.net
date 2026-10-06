@@ -4,16 +4,38 @@
       "visible": true,
       "category": "Embedded Systems Laboratory",
       "title": "Graduate Research Assistant",
-      "duration": "October 2023 -",
-      "description": "I am currently a PhD Candidate at the Embedded Systems Laboratory at Purdue supervied by Prof. Vijay Raghunathan. I am designing an end-to-end hardware security system for Unmanned Ariel Vehicles as a part of the Cognisense JUMP 2.0 center. ",
+      "duration": "October 2023 - Present",
+      "description": "I am currently a PhD Candidate at the Embedded Systems Laboratory at Purdue, supervised by Prof. Vijay Raghunathan, as part of the CogniSense JUMP 2.0 center. I design and deploy safe, efficient robotic systems spanning VLA manipulation, 3D perception, optimization-based control and edge inference.",
+      "description2": "Previously, I designed SecuPilot, an end-to-end hardware security platform for Unmanned Aerial Vehicles.",
       "tags": [
-        "Hardware Security",
-        "UAV"
+        "Robotics",
+        "Edge AI",
+        "Hardware Security"
       ],
       "image": {
         "src": "../../images/PurdueUniversity.png",
         "alt": "Purdue",
         "linkTo": "https://engineering.purdue.edu/ESL/"
+      },
+      "links": [
+        {}
+      ]
+    },
+    {
+      "visible": false,
+      "category": "VSDSquadron",
+      "title": "Embedded Hardware & Firmware Developer",
+      "duration": "March 2023 - Present",
+      "description": "Owned PCB and firmware development and BOM optimization with OEMs for RISC-V/FPGA development boards, contributing to 5,000+ units shipped.",
+      "description2": "Developed C/C++ firmware for board bring-up and hardware diagnostics across SPI, I2C and UART interfaces.",
+      "tags": [
+        "PCB Design",
+        "Firmware"
+      ],
+      "image": {
+        "src": "../../images/vsdsquadron.jpeg",
+        "alt": "VSDSquadron",
+        "linkTo": "https://www.vlsisystemdesign.com/vsdsquadronmini/"
       },
       "links": [
         {}
@@ -66,7 +88,7 @@
       "description": "Designed Controller Area Network and RS485 interface shield for STM32 G474 for the Stoch3 quadruped.",
       "description2": "Carried out the torque characterization tests for the U10 Plus BLDC motor and assembled the electronic architecture for the 3-DOF prototype leg.",
       "tags": [
-        "Quadraped Development",
+        "Quadruped Development",
         "PCB Design"
       ],
       "image": {

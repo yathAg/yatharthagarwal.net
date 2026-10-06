@@ -4,7 +4,7 @@ imageAlt: "Yatharth Agarwal"
 ---
 
 
-Welcome to my corner of the web! I'm Yatharth Agarwal, a PhD Candidate at Purdue University, where I'm delving into the exciting world of developing efficient end-to-end systems for enabling inteligence on the edge by exploring the domains of VLSI, Embedded Systems and Computer Vision.
+Welcome to my corner of the web! I'm Yatharth Agarwal, a PhD Candidate at Purdue University, where I'm delving into the exciting world of developing safe and efficient end-to-end systems for enabling intelligence on the edge by exploring the domains of Robotics, Embedded Systems, Computer Vision and VLSI.
 
 When I'm not buried in coursework or tinkering with circuits, you can catch me cheering my favorite F1 driver, immersing myself in the latest blockbuster movies, or getting lost in the pages of a good book.
 

@@ -4,7 +4,7 @@
   "description": "A Gatsby Starter Project to easily get started with the Portfolio Minimal Theme.",
   "scripts": {
     "clean": "gatsby clean",
-    "develop": "gatsby clean develop",
+    "develop": "gatsby clean && gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve"
   },

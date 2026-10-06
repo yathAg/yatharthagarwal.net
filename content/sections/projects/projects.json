@@ -2,9 +2,51 @@
   "projects": [
     {
       "visible": true,
+      "category": "Safe Robot Manipulation",
+      "title": "Multi-Link Safety Filter",
+      "description": "A training-free safety shield that keeps pretrained vision-language-action (VLA) policies clear of moving hazards. Five ellipsoids guard the gripper, wrist and forearm while optical flow tracks the hazard, cutting collisions from 65.6% to 27.3% and raising safe task success from 29.4% to 50.4%. The barrier runs in 2.2 ms on edge hardware and was validated on a physical SO-101 arm. Preprint available on arXiv.",
+      "tags": [
+        "Robotics",
+        "AI",
+        "Research"
+      ],
+      "image": {
+        "src": "../../images/MultiLinkSafety.png",
+        "alt": "Multi-link safety filter around a VLA policy"
+      },
+      "links": [
+        {
+          "type": "external",
+          "url": "https://yathag.github.io/multilink-safety-filter/"
+        }
+      ]
+    },
+    {
+      "visible": false,
+      "category": "Edge AI for 3D Scene Understanding",
+      "title": "CORE3D",
+      "description": "CORE3D brings 3D scene-language reasoning to the edge by distilling segmented point clouds into compact object graphs that a small 4B-parameter LLM can query zero-shot. With GPU-resident scene construction, prefix/KV caching and FP4 quantization, it achieves a 3.2× speedup and 1.6× better energy efficiency on an NVIDIA Jetson while outperforming prior zero-shot methods on ScanRefer. Accepted at the IJCNN 2026 Deep Edge Intelligence Workshop.",
+      "tags": [
+        "AI",
+        "Robotics",
+        "Research"
+      ],
+      "image": {
+        "src": "../../images/CORE3D.png",
+        "alt": "CORE3D compact object graph"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/yathAg/CORE3D"
+        }
+      ]
+    },
+    {
+      "visible": true,
       "category": "Hardware Security for Embedded Systems",
       "title": "SecuPilot",
-      "description": "SecuPilot is a security coprocessor-integrated platform for autonomous UAV security, providing end-to-end protection across the operational lifecycle. This research work has been accepted in ACM Transactions on Embedded Computing Systems (TECS) and will be presented at ESWEEK 2025.",
+      "description": "SecuPilot is a security coprocessor-integrated platform for autonomous UAV security, providing end-to-end protection across the operational lifecycle. This research work was published in ACM Transactions on Embedded Computing Systems (TECS) and presented at ESWEEK 2025.",
       "tags": [
         "Security",
         "System Design",
@@ -22,10 +64,10 @@
       ]
     },
     {
-      "visible": true,
+      "visible": false,
       "category": "Efficient Multimodal System for Edge AI",
       "title": "ECO",
-      "description": "ECO is a novel approach for efficient multimodal AI on commercial Neural Processing Units (NPUs) through context-aware sensing and compute optimizations. This collaborative research work has been accepted in ISLPED 2025.",
+      "description": "ECO is a novel approach for efficient multimodal AI on commercial Neural Processing Units (NPUs) through context-aware sensing and compute optimizations. This collaborative research work was accepted at ISLPED 2025.",
       "tags": [
         "AI",
         "System Design",
@@ -65,7 +107,7 @@
     },
     {
       "visible": false,
-      "category": "Making education accessible ",
+      "category": "Making education accessible",
       "title": "VSDSquadron",
       "description": "VSDSquadron is a development board designed to make learning RISC V and VLSI accessible. Based on the openMPW shuttle, my goal has been to make VSDSquadron scalable and optimized for production without compromising ease of use. It also has a more popular sibling called VSDSquadronMini.",
       "tags": [
@@ -91,7 +133,7 @@
       "visible": false,
       "category": "Taking to the skies",
       "title": "Seraphim: Autonomous Hexrotor",
-      "description": "Seraphim is an autonomous, six feet wide hexrotor designed at ProjectMANAS. Capable of autonomous navigation, image detection and payload delivery, it was our entry to the 2022 AUVSI SUAS Challenge held in Maryland USA. ",
+      "description": "Seraphim is an autonomous, six feet wide hexrotor designed at ProjectMANAS. Capable of autonomous navigation, image detection and payload delivery, it was our entry to the 2022 AUVSI SUAS Challenge held in Maryland USA.",
       "tags": [
         "Robotics",
         "UAV"
@@ -116,7 +158,7 @@
       "visible": false,
       "category": "Open Source IC Design",
       "title": "AES Encryption: GF180",
-      "description": "It's mindblowing how far open-source EDA has come. Within days, I was able to implement an AES accelerator for the open GF180m shuttle. Unfortunately, it wasn't accepted into the lottery, but I will have my own tapeout soon...",
+      "description": "It's mind-blowing how far open-source EDA has come. Within days, I was able to implement an AES accelerator for the open GF180m shuttle. Unfortunately, it wasn't accepted into the lottery, but I will have my own tapeout soon...",
       "tags": [
         "VLSI",
         "Security"
@@ -134,7 +176,7 @@
     },
     {
       "visible": false,
-      "category": "ECE559 Mos VLSI Design ",
+      "category": "ECE559 MOS VLSI Design",
       "title": "8T SRAM Compute in Memory Macro",
       "description": "We designed a 4kb in-memory compute module to explore architectures capable of overcoming the Von Neumann bottleneck. Implemented in 45nm CMOS, the 8T SRAM cell can perform arithmetic operations without transferring data to the CPU.",
       "tags": [
@@ -179,8 +221,8 @@
     {
       "visible": false,
       "category": "Future of computing",
-      "title": "RISC-V CORE ",
-      "description": "You can place a sure-shot bet that in a few years, RISC-V is going to be everywhere. This was my attempt at implementing a simple core to understand the basics of RISC-V. Implemented on an Artix7 FPGA, it can display the Mandelbrot set over UART. ",
+      "title": "RISC-V CORE",
+      "description": "You can place a sure-shot bet that in a few years, RISC-V is going to be everywhere. This was my attempt at implementing a simple core to understand the basics of RISC-V. Implemented on an Artix7 FPGA, it can display the Mandelbrot set over UART.",
       "tags": [
         "RISC V",
         "Computer Architecture"
@@ -199,7 +241,7 @@
     {
       "visible": false,
       "category": "Open Source Contribution",
-      "title": "OpenROAD 7mm contest",
+      "title": "OpenROAD 7nm contest",
       "description": "Implemented DRC for ASAP7 PDK in the OpenROAD Physical design flow. Won the outstanding contribution award for the pull request amongst participants worldwide.",
       "tags": [
         "VLSI",
@@ -216,7 +258,7 @@
         },
         {
           "type": "external",
-          "url": "https://openroaddesigncontest.org/result/"
+          "url": "https://web.archive.org/web/20241201171844/https://openroaddesigncontest.org/result/"
         }
       ]
     },
@@ -224,14 +266,14 @@
       "visible": false,
       "category": "Swadeshi Microprocessor Challenge",
       "title": "Shelfy: Automated ASRS",
-      "description": "Developed with the most talented people I know, Shelfy was our entry to the Swadeshi Microprocessor challenge. Having made it to the top 100 teams across India, it was my first experience prototyping a system with RISCV and proposing a complete business plan for the automated storage and retrieval system for warehouses. ",
+      "description": "Developed with the most talented people I know, Shelfy was our entry to the Swadeshi Microprocessor challenge. Having made it to the top 100 teams across India, it was my first experience prototyping a system with RISCV and proposing a complete business plan for the automated storage and retrieval system for warehouses.",
       "tags": [
         "RISC V",
         "Robotics"
       ],
       "image": {
         "src": "../../images/shelfy.JPG",
-        "alt": "Shely"
+        "alt": "Shelfy"
       },
       "links": [
         {
@@ -248,7 +290,7 @@
       "visible": false,
       "category": "Bringing gates together",
       "title": "8Bit CPU",
-      "description": "Built following the video series by BenEater, I spent every rupee I could save as a High school student buying the parts from SP Road. The experience of trimming meters of wire and combining a few dozen 7400ICs into this enormous CPU finally resulted in the joy of seven-segment LEDs displaying the Fibonacci series.  ",
+      "description": "Built following the video series by BenEater, I spent every rupee I could save as a High school student buying the parts from SP Road. The experience of trimming meters of wire and combining a few dozen 7400ICs into this enormous CPU finally resulted in the joy of seven-segment LEDs displaying the Fibonacci series.",
       "tags": [
         "VLSI",
         "Computer Architecture"
@@ -266,9 +308,9 @@
     },
     {
       "visible": false,
-      "category": "Whats the Time?",
+      "category": "What's the Time?",
       "title": "Binary Wrist watch",
-      "description": "It has to be one of my most prized possessions. I made this watch in 2018, and it was my first time assembling a PCB. With 0603 components, I believe there still are some LEDs living like specs of dust in my house. Reading the time in binary is always fun, and it's a testament to the electronics engineer inside me!",
+      "description": "It has to be one of my most prized possessions. I made this watch in 2018, and it was my first time assembling a PCB. With 0603 components, I believe there still are some LEDs living like specks of dust in my house. Reading the time in binary is always fun, and it's a testament to the electronics engineer inside me!",
       "tags": [
         "PCB Design",
         "Embedded Systems"

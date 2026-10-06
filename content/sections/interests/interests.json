@@ -1,9 +1,9 @@
 {
   "interests": [
     {
-      "label": "VLSI",
+      "label": "Robotics",
       "image": {
-        "src": "../../images/interests/VLSI.png",
+        "src": "../../images/interests/robotics.png",
         "alt": ""
       }
     },
@@ -11,13 +11,6 @@
       "label": "Embedded Systems",
       "image": {
         "src": "../../images/interests/ES.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "Open Source Hardware",
-      "image": {
-        "src": "../../images/interests/OSH.png",
         "alt": ""
       }
     },
@@ -39,6 +32,13 @@
       "label": "Reading",
       "image": {
         "src": "../../images/interests/books.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "VLSI",
+      "image": {
+        "src": "../../images/interests/VLSI.png",
         "alt": ""
       }
     },

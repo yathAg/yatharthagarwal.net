@@ -15,7 +15,7 @@ export default function IndexPage() {
   return (
     <>
       <Seo title="Yatharth Agarwal" />
-      <Page useSplashScreenAnimation>
+      <Page>
         <HeroSection sectionId="hero" />
         <AboutSection sectionId="about" heading="About Me" />
         <ArticleSection sectionId="articles" heading="Recent Blogs" sources={['Blog']} />
